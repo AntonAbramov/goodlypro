@@ -1409,7 +1409,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: #323232;
   background-color: #f2f2f2;
 }
 
@@ -1425,11 +1425,11 @@ textarea {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_scaffolding\.scss}line{font-family:\0000348}}
 a {
-  color: #b5363c;
+  color: #d5d5d5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_scaffolding\.scss}line{font-family:\0000352}}
 a:hover, a:focus {
-  color: #c50008;
+  color: #555555;
   text-decoration: underline;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_scaffolding\.scss}line{font-family:\0000357}}
@@ -1695,12 +1695,12 @@ mark,
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_text-emphasis\.scss}line{font-family:\000035}}
 .text-primary {
-  color: #b5363c;
+  color: #d5d5d5;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_text-emphasis\.scss}line{font-family:\000038}}
 a.text-primary:hover {
-  color: #8e2a2f;
+  color: #bcbcbc;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_text-emphasis\.scss}line{font-family:\000035}}
@@ -1750,12 +1750,12 @@ a.text-danger:hover {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_background-variant\.scss}line{font-family:\000035}}
 .bg-primary {
-  background-color: #b5363c;
+  background-color: #d5d5d5;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_background-variant\.scss}line{font-family:\000038}}
 a.bg-primary:hover {
-  background-color: #8e2a2f;
+  background-color: #bcbcbc;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_background-variant\.scss}line{font-family:\000035}}
@@ -2009,7 +2009,7 @@ pre {
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
+  color: #323232;
   background-color: whitesmoke;
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -3426,7 +3426,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #333333;
+  color: #323232;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -3899,7 +3899,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #727272;
 }
 
 @media (min-width: 768px) {
@@ -4097,14 +4097,14 @@ select[multiple].input-lg,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\0000360}}
 .btn-primary {
   color: white;
-  background-color: #b5363c;
-  border-color: #a13035;
+  background-color: #d5d5d5;
+  border-color: #c8c8c8;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000315}}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: white;
-  background-color: #8e2a2f;
-  border-color: #722226;
+  background-color: #bcbcbc;
+  border-color: #aaaaaa;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000322}}
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -4112,26 +4112,26 @@ select[multiple].input-lg,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000332}}
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #b5363c;
-  border-color: #a13035;
+  background-color: #d5d5d5;
+  border-color: #c8c8c8;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000338}}
 .btn-primary .badge {
-  color: #b5363c;
+  color: #d5d5d5;
   background-color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\0000364}}
 .btn-success {
   color: white;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #62c24a;
+  border-color: #55b53d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000315}}
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
   color: white;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #4ca237;
+  border-color: #40882e;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000322}}
 .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
@@ -4139,26 +4139,26 @@ select[multiple].input-lg,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000332}}
 .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #62c24a;
+  border-color: #55b53d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000338}}
 .btn-success .badge {
-  color: #5cb85c;
+  color: #62c24a;
   background-color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\0000368}}
 .btn-info {
   color: white;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #009fd1;
+  border-color: #008cb7;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000315}}
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
   color: white;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #00789e;
+  border-color: #005d7a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000322}}
 .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
@@ -4166,12 +4166,12 @@ select[multiple].input-lg,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000332}}
 .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #009fd1;
+  border-color: #008cb7;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000338}}
 .btn-info .badge {
-  color: #5bc0de;
+  color: #009fd1;
   background-color: white;
 }
 
@@ -4205,14 +4205,14 @@ select[multiple].input-lg,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\0000376}}
 .btn-danger {
   color: white;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #f0300c;
+  border-color: #d82b0b;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000315}}
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
   color: white;
-  background-color: #c9302c;
-  border-color: #ac2925;
+  background-color: #bf260a;
+  border-color: #9d1f08;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000322}}
 .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
@@ -4220,18 +4220,18 @@ select[multiple].input-lg,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000332}}
 .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #f0300c;
+  border-color: #d82b0b;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000338}}
 .btn-danger .badge {
-  color: #d9534f;
+  color: #f0300c;
   background-color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\0000385}}
 .btn-link {
-  color: #b5363c;
+  color: #d5d5d5;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -4248,7 +4248,7 @@ select[multiple].input-lg,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\00003105}}
 .btn-link:hover, .btn-link:focus {
-  color: #c50008;
+  color: #555555;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4404,14 +4404,14 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 20px;
-  color: #333333;
+  color: #323232;
   white-space: nowrap;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_dropdowns\.scss}line{font-family:\0000377}}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #252525;
   background-color: whitesmoke;
 }
 
@@ -4420,7 +4420,7 @@ tbody.collapse.in {
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #b5363c;
+  background-color: #d5d5d5;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_dropdowns\.scss}line{font-family:\00003103}}
@@ -4943,7 +4943,7 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_navs\.scss}line{font-family:\0000348}}
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #b5363c;
+  border-color: #d5d5d5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_navs\.scss}line{font-family:\0000359}}
 .nav .nav-divider {
@@ -5001,7 +5001,7 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_navs\.scss}line{font-family:\00003133}}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: white;
-  background-color: #b5363c;
+  background-color: #d5d5d5;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_navs\.scss}line{font-family:\00003144}}
@@ -5710,7 +5710,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 20px;
   text-decoration: none;
-  color: #b5363c;
+  color: #d5d5d5;
   background-color: white;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -5732,7 +5732,7 @@ tbody.collapse.in {
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  color: #c50008;
+  color: #555555;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -5743,8 +5743,8 @@ tbody.collapse.in {
 .pagination > .active > span:focus {
   z-index: 2;
   color: white;
-  background-color: #b5363c;
-  border-color: #b5363c;
+  background-color: #d5d5d5;
+  border-color: #d5d5d5;
   cursor: default;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_pagination\.scss}line{font-family:\0000368}}
@@ -5894,29 +5894,29 @@ a.label:hover, a.label:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_labels\.scss}line{font-family:\0000348}}
 .label-primary {
-  background-color: #b5363c;
+  background-color: #d5d5d5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_labels\.scss}line{font-family:\000038}}
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #8e2a2f;
+  background-color: #bcbcbc;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_labels\.scss}line{font-family:\0000352}}
 .label-success {
-  background-color: #5cb85c;
+  background-color: #62c24a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_labels\.scss}line{font-family:\000038}}
 .label-success[href]:hover, .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #4ca237;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_labels\.scss}line{font-family:\0000356}}
 .label-info {
-  background-color: #5bc0de;
+  background-color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_labels\.scss}line{font-family:\000038}}
 .label-info[href]:hover, .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #00789e;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_labels\.scss}line{font-family:\0000360}}
@@ -5930,11 +5930,11 @@ a.label:hover, a.label:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_labels\.scss}line{font-family:\0000364}}
 .label-danger {
-  background-color: #d9534f;
+  background-color: #f0300c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_labels\.scss}line{font-family:\000038}}
 .label-danger[href]:hover, .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #bf260a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_badges\.scss}line{font-family:\000037}}
@@ -5968,7 +5968,7 @@ a.label:hover, a.label:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_badges\.scss}line{font-family:\0000340}}
 a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #b5363c;
+  color: #d5d5d5;
   background-color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_badges\.scss}line{font-family:\0000344}}
@@ -6057,14 +6057,14 @@ a.badge:hover, a.badge:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_thumbnails\.scss}line{font-family:\0000327}}
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #323232;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_thumbnails\.scss}line{font-family:\0000336}}
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #b5363c;
+  border-color: #d5d5d5;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_alerts\.scss}line{font-family:\000039}}
@@ -6211,7 +6211,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: white;
   text-align: center;
-  background-color: #b5363c;
+  background-color: #d5d5d5;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6251,7 +6251,7 @@ a.thumbnail.active {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_progress-bars\.scss}line{font-family:\0000391}}
 .progress-bar-success {
-  background-color: #5cb85c;
+  background-color: #62c24a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_progress-bar\.scss}line{font-family:\000037}}
 .progress-striped .progress-bar-success {
@@ -6262,7 +6262,7 @@ a.thumbnail.active {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_progress-bars\.scss}line{font-family:\0000395}}
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_progress-bar\.scss}line{font-family:\000037}}
 .progress-striped .progress-bar-info {
@@ -6284,7 +6284,7 @@ a.thumbnail.active {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_progress-bars\.scss}line{font-family:\00003103}}
 .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #f0300c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_progress-bar\.scss}line{font-family:\000037}}
 .progress-striped .progress-bar-danger {
@@ -6404,8 +6404,8 @@ a.list-group-item:hover, a.list-group-item:focus {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: white;
-  background-color: #b5363c;
-  border-color: #b5363c;
+  background-color: #d5d5d5;
+  border-color: #d5d5d5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_list-group\.scss}line{font-family:\00003100}}
 .list-group-item.active .list-group-item-heading,
@@ -6419,7 +6419,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_list-group\.scss}line{font-family:\00003103}}
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #efc8ca;
+  color: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_list-group\.scss}line{font-family:\000034}}
@@ -6798,7 +6798,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\000036}}
 .panel-default > .panel-heading {
-  color: #333333;
+  color: #323232;
   background-color: whitesmoke;
   border-color: #dddddd;
 }
@@ -6809,7 +6809,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000314}}
 .panel-default > .panel-heading .badge {
   color: whitesmoke;
-  background-color: #333333;
+  background-color: #323232;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000320}}
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
@@ -6818,26 +6818,26 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_panels\.scss}line{font-family:\00003229}}
 .panel-primary {
-  border-color: #b5363c;
+  border-color: #d5d5d5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\000036}}
 .panel-primary > .panel-heading {
   color: white;
-  background-color: #b5363c;
-  border-color: #b5363c;
+  background-color: #d5d5d5;
+  border-color: #d5d5d5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000311}}
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #b5363c;
+  border-top-color: #d5d5d5;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000314}}
 .panel-primary > .panel-heading .badge {
-  color: #b5363c;
+  color: #d5d5d5;
   background-color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000320}}
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #b5363c;
+  border-bottom-color: #d5d5d5;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_panels\.scss}line{font-family:\00003232}}
@@ -8033,205 +8033,325 @@ button.close {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/icons\/\*\.png}line{font-family:\00003274}}
-.icons-sprite, .icons-about, .icons-banners_big, .icons-buisness, .icons-circle_red, .icons-circle_separator, .icons-donate, .icons-donate_big, .icons-fancybox_buttons, .icons-fb, .icons-footer_logo, .icons-home, .icons-logo_5_10, .icons-phone, .icons-skype, .icons-slider_arrow_left, .icons-slider_arrow_right, .icons-tezis_12, .icons-tw, .icons-video, .icons-vk, .icons-what_is_510, .navigation ul > li.is-active .link-logo_5_10 .icon,
-.navigation ul > li .link-logo_5_10:hover .icon,
-.navigation ul > li .link-logo_5_10:focus .icon, .navigation ul > li.is-active .link-about .icon,
-.navigation ul > li .link-about:hover .icon,
-.navigation ul > li .link-about:focus .icon, .navigation ul > li.is-active .link-video .icon,
-.navigation ul > li .link-video:hover .icon,
-.navigation ul > li .link-video:focus .icon, .navigation ul > li.is-active .link-donate .icon,
-.navigation ul > li .link-donate:hover .icon,
-.navigation ul > li .link-donate:focus .icon, .navigation ul > li.is-active .link-buisness .icon,
-.navigation ul > li .link-buisness:hover .icon,
-.navigation ul > li .link-buisness:focus .icon, .navigation ul > li.is-active .link-phone .icon,
-.navigation ul > li .link-phone:hover .icon,
-.navigation ul > li .link-phone:focus .icon, .navigation ul > li.home > a:hover .icons-home, .navigation ul > li.home.is-active .icon, .top-line-separator:before,
-.bottom-line-separator:before, .bullet-list li a:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/icons\/\*\.png}line{font-family:\00003426}}
+.icons-sprite, .icons-back, .icons-bad, .icons-bank, .icons-books, .icons-cart, .icons-checkbox, .icons-close, .icons-delivery, .icons-done, .icons-down, .icons-erth_wrn, .icons-fb, .icons-fleshka, .icons-footer_logo, .icons-go, .icons-good, .icons-hand, .icons-id, .icons-info, .icons-inst, .icons-laptop, .icons-lock, .icons-logo, .icons-map, .icons-money, .icons-no_avatar, .icons-note, .icons-pencil, .icons-people, .icons-person, .icons-ppl_phone, .icons-question, .icons-radio, .icons-ru, .icons-small-arrow-bot, .icons-tw, .icons-up, .icons-us, .icons-vk, .icons-you {
   background: url('../img/icons.png') no-repeat;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-about {
-  background-position: 0 -419px;
+.icons-back {
+  background-position: 0 -272px;
   height: 48px;
-  width: 62px;
+  width: 48px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-about:hover, .icons-about.about_hover, .icons-about.about-hover {
-  background-position: 0 -371px;
+.icons-back:hover, .icons-back.back_hover, .icons-back.back-hover {
+  background-position: 0 -320px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-banners_big {
-  background-position: 0 0;
-  height: 122px;
-  width: 133px;
+.icons-bad {
+  background-position: 0 -125px;
+  height: 60px;
+  width: 60px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-buisness {
-  background-position: 0 -766px;
-  height: 35px;
-  width: 56px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-buisness:hover, .icons-buisness.buisness_hover, .icons-buisness.buisness-hover {
-  background-position: 0 -801px;
+.icons-bank {
+  background-position: 0 -1089px;
+  height: 29px;
+  width: 29px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-circle_red {
-  background-position: 0 -1159px;
-  height: 15px;
-  width: 15px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-circle_separator {
-  background-position: 0 -1101px;
-  height: 15px;
-  width: 15px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-donate {
-  background-position: 0 -630px;
+.icons-books {
+  background-position: 0 -233px;
   height: 39px;
-  width: 39px;
+  width: 41px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-cart {
+  background-position: 0 -1056px;
+  height: 33px;
+  width: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-checkbox {
+  background-position: 0 -1480px;
+  height: 20px;
+  width: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-donate:hover, .icons-donate.donate_hover, .icons-donate.donate-hover {
-  background-position: 0 -727px;
+.icons-checkbox:active, .icons-checkbox.checkbox_active, .icons-checkbox.checkbox-active {
+  background-position: 0 -1256px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-donate_big {
-  background-position: 0 -253px;
-  height: 118px;
-  width: 119px;
+.icons-close {
+  background-position: 0 -966px;
+  height: 26px;
+  width: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
+.icons-close:hover, .icons-close.close_hover, .icons-close.close-hover {
+  background-position: 0 -992px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-fancybox_buttons {
-  background-position: 0 -1217px;
-  height: 90px;
-  width: 90px;
+.icons-delivery {
+  background-position: 0 -368px;
+  height: 33px;
+  width: 33px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-done {
+  background-position: 0 -185px;
+  height: 48px;
+  width: 48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-down {
+  background-position: 0 -1417px;
+  height: 12px;
+  width: 19px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-erth_wrn {
+  background-position: 0 -422px;
+  height: 33px;
+  width: 36px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-fb {
-  background-position: 0 -1307px;
-  height: 17px;
-  width: 7px;
+  background-position: 0 -898px;
+  height: 34px;
+  width: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
+.icons-fb:hover, .icons-fb.fb_hover, .icons-fb.fb-hover {
+  background-position: 0 -932px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-fleshka {
+  background-position: 0 -1018px;
+  height: 38px;
+  width: 37px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-footer_logo {
-  background-position: 0 -588px;
-  height: 42px;
-  width: 42px;
+  background-position: 0 0;
+  height: 32px;
+  width: 172px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-home {
-  background-position: 0 -869px;
-  height: 33px;
+.icons-go {
+  background-position: 0 -1376px;
+  height: 26px;
+  width: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-good {
+  background-position: 0 -32px;
+  height: 63px;
+  width: 62px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-hand {
+  background-position: 0 -590px;
+  height: 39px;
   width: 39px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-home:hover, .icons-home.home_hover, .icons-home.home-hover {
-  background-position: 0 -836px;
-}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-logo_5_10 {
-  background-position: 0 -902px;
-  height: 33px;
-  width: 50px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-logo_5_10:hover, .icons-logo_5_10.logo_5_10_hover, .icons-logo_5_10.logo_5_10-hover {
-  background-position: 0 -935px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-phone {
-  background-position: 0 -698px;
+.icons-id {
+  background-position: 0 -1178px;
   height: 29px;
-  width: 42px;
+  width: 29px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-info {
+  background-position: 0 -401px;
+  height: 21px;
+  width: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-inst {
+  background-position: 0 -731px;
+  height: 34px;
+  width: 34px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-phone:hover, .icons-phone.phone_hover, .icons-phone.phone-hover {
-  background-position: 0 -669px;
+.icons-inst:hover, .icons-inst.inst_hover, .icons-inst.inst-hover {
+  background-position: 0 -663px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-skype {
-  background-position: 0 -1084px;
-  height: 17px;
-  width: 17px;
+.icons-laptop {
+  background-position: 0 -1441px;
+  height: 31px;
+  width: 48px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-slider_arrow_left {
-  background-position: 0 -1056px;
-  height: 28px;
-  width: 18px;
+.icons-lock {
+  background-position: 0 -1351px;
+  height: 25px;
+  width: 19px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-logo {
+  background-position: 0 -95px;
+  height: 30px;
+  width: 34px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-map {
+  background-position: 0 -489px;
+  height: 33px;
+  width: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-money {
+  background-position: 0 -861px;
+  height: 37px;
+  width: 34px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-no_avatar {
+  background-position: 0 -1331px;
+  height: 20px;
+  width: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-note {
+  background-position: 0 -800px;
+  height: 27px;
+  width: 28px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-pencil {
+  background-position: 0 -1302px;
+  height: 29px;
+  width: 29px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-people {
+  background-position: 0 -765px;
+  height: 35px;
+  width: 34px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-person {
+  background-position: 0 -1276px;
+  height: 26px;
+  width: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-ppl_phone {
+  background-position: 0 -1227px;
+  height: 29px;
+  width: 21px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-question {
+  background-position: 0 -1118px;
+  height: 25px;
+  width: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-radio {
+  background-position: 0 -1207px;
+  height: 20px;
+  width: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-slider_arrow_left:hover, .icons-slider_arrow_left.slider_arrow_left_hover, .icons-slider_arrow_left.slider_arrow_left-hover {
-  background-position: 0 -1116px;
+.icons-radio:active, .icons-radio.radio_active, .icons-radio.radio-active {
+  background-position: 0 -1143px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-slider_arrow_right {
-  background-position: 0 -1028px;
-  height: 28px;
-  width: 18px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-slider_arrow_right:hover, .icons-slider_arrow_right.slider_arrow_right_hover, .icons-slider_arrow_right.slider_arrow_right-hover {
-  background-position: 0 -1174px;
+.icons-ru {
+  background-position: 0 -1402px;
+  height: 15px;
+  width: 21px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-tezis_12 {
-  background-position: 0 -467px;
-  height: 121px;
-  width: 99px;
+.icons-small-arrow-bot {
+  background-position: 0 -1472px;
+  height: 8px;
+  width: 11px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-tw {
-  background-position: 0 -1144px;
+  background-position: 0 -827px;
+  height: 34px;
+  width: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
+.icons-tw:hover, .icons-tw.tw_hover, .icons-tw.tw-hover {
+  background-position: 0 -556px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-up {
+  background-position: 0 -1429px;
+  height: 12px;
+  width: 19px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-us {
+  background-position: 0 -1163px;
   height: 15px;
   width: 20px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-video {
-  background-position: 0 -998px;
-  height: 30px;
-  width: 39px;
+.icons-vk {
+  background-position: 0 -697px;
+  height: 34px;
+  width: 34px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
-.icons-video:hover, .icons-video.video_hover, .icons-video.video-hover {
-  background-position: 0 -968px;
+.icons-vk:hover, .icons-vk.vk_hover, .icons-vk.vk-hover {
+  background-position: 0 -522px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-vk {
-  background-position: 0 -1202px;
-  height: 15px;
-  width: 13px;
+.icons-you {
+  background-position: 0 -629px;
+  height: 34px;
+  width: 34px;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
-.icons-what_is_510 {
-  background-position: 0 -122px;
-  height: 131px;
-  width: 131px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
+.icons-you:hover, .icons-you.you_hover, .icons-you.you-hover {
+  background-position: 0 -455px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_sprite\.scss}line{font-family:\0000311}}
@@ -8242,246 +8362,372 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\000031}}
 .header {
-  background: #c50008;
-  padding: 10px 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  height: 49px;
+  background: #5d5e60;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVkNWU2MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMDMwMzIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #5d5e60 0%, #303032 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5d5e60), color-stop(100%, #303032));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #5d5e60 0%, #303032 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #5d5e60 0%, #303032 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #5d5e60 0%, #303032 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #5d5e60 0%, #303032 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5d5e60', endColorstr='#303032',GradientType=0 );
+  /* IE6-8 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000315}}
+.header .logo-container {
+  float: left;
+  padding-right: 15px;
+  border-radius: 1px solid #222426;
+  height: 49px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\000035}}
-.header p {
-  vertical-align: middle;
-  width: 50%;
-  color: #fff;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000310}}
-.header .text-left {
-  float: left;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000313}}
-.header .text-right {
-  float: right;
-  padding-top: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000317}}
-.header .logo {
-  left: 50%;
-  top: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000321}}
+.header .logo-container:after {
+  content: "";
+  width: 1px;
+  height: 100%;
   position: absolute;
-  z-index: 1;
-  margin-left: -135px;
-  width: 278px;
-  height: 209px;
-  background: url(../img/logo.png) no-repeat;
+  right: -1px;
+  top: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000331}}
+.header .logo {
   display: block;
-  text-indent: -9999em;
+  color: #f2f2f2;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 48px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000337}}
+.header .logo i {
+  margin-right: 5px;
+  position: relative;
+  top: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000344}}
+.header .header-interactive section {
+  float: left;
+  border-right: 1px solid #222426;
+  height: 49px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000349}}
+.header .header-interactive section:first-child {
+  border-left: 1px solid #222426;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000352}}
+.header .header-interactive section:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000362}}
+.header .header-interactive section:last-child:after {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000367}}
+.header .header-interactive .entrance-container {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000369}}
+.header .header-interactive .entrance-container .entrance-popover {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  right: 0;
+  color: #fff;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  top: 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid #3b3b3d;
+  background: #505052;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUwNTA1MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NzQ2NGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #505052 0%, #47464b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #505052), color-stop(100%, #47464b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #505052 0%, #47464b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #505052 0%, #47464b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #505052 0%, #47464b 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #505052 0%, #47464b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#505052', endColorstr='#47464b',GradientType=0 );
+  /* IE6-8 */
+  width: 310px;
+  padding: 15px 20px 20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\0000393}}
+.header .header-interactive .entrance-container .entrance-popover:after {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  top: -14px;
+  border: 7px solid;
+  border-color: transparent transparent #505052 transparent;
+  right: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003102}}
+.header .header-interactive .entrance-container .entrance-popover .heading {
+  font-size: 16px;
+  margin: 0 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003107}}
+.header .header-interactive .entrance-container .entrance-popover .field {
+  margin: 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003111}}
+.header .header-interactive .entrance-container .entrance-popover .field input[type='text'],
+.header .header-interactive .entrance-container .entrance-popover .field input[type='email'],
+.header .header-interactive .entrance-container .entrance-popover .field input[type='password'] {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 32px;
+  padding: 7px 10px;
+  line-height: 16px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  font-family: 'pt_sansregular';
+  border: 1px solid #3b3b3d;
+  width: 100%;
+  background: #828283;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003125}}
+.header .header-interactive .entrance-container .entrance-popover .field .forgot-password-link {
+  color: #828283;
+  text-decoration: none;
+  font-family: 'pt_sansregular';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003130}}
+.header .header-interactive .entrance-container .entrance-popover .field label {
+  font-family: 'pt_sansregular';
+  margin: 0;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003136}}
+.header .header-interactive .entrance-container .entrance-popover .btn-default {
+  margin-top: 10px;
+  padding: 7px 18px 3px;
+  font-size: 14px;
+  color: #323232;
+  font-family: 'pt_sansbold';
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background: #fbfbfb;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiZmJmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZmVmZWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #fbfbfb 0%, #efefef 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #efefef));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fbfbfb 0%, #efefef 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fbfbfb 0%, #efefef 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fbfbfb 0%, #efefef 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fbfbfb 0%, #efefef 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#efefef',GradientType=0 );
+  /* IE6-8 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003157}}
+.header .header-interactive .entrance-container.is-open .entrance-popover {
+  opacity: 1;
+  z-index: 10;
+  top: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003165}}
+.header .header-interactive .entrance-info a {
+  text-decoration: none;
+  height: 49px;
+  width: 207px;
+  padding: 15px 20px;
+  line-height: 19px;
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'pt_sansregular';
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003176}}
+.header .header-interactive .entrance-info a:hover, .header .header-interactive .entrance-info a.logged {
+  background: url(../img/bg-entrance.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003179}}
+.header .header-interactive .entrance-info a img {
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003187}}
+.header .header-interactive .language .selected-langugae {
+  padding: 17px 20px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003190}}
+.header .header-interactive .language .selected-langugae > span {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003194}}
+.header .header-interactive .language .language-dropdown {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  top: 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid #3b3b3d;
+  background: #505052;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUwNTA1MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NzQ2NGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #505052 0%, #47464b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #505052), color-stop(100%, #47464b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #505052 0%, #47464b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #505052 0%, #47464b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #505052 0%, #47464b 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #505052 0%, #47464b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#505052', endColorstr='#47464b',GradientType=0 );
+  /* IE6-8 */
+  width: 160px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003214}}
+.header .header-interactive .language .language-dropdown a {
+  display: block;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #3b3b3d;
+  padding: 14px 15px 14px 20px;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'pt_sansregular';
+  font-size: 16px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003225}}
+.header .header-interactive .language .language-dropdown a:first-child {
+  border-top: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003228}}
+.header .header-interactive .language .language-dropdown a:last-child {
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003231}}
+.header .header-interactive .language .language-dropdown a .icon {
+  margin-right: 13px;
+  position: relative;
+  top: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003237}}
+.header .header-interactive .language .language-dropdown:before {
+  content: "";
+  top: -12px;
+  width: 100%;
+  height: 12px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003247}}
+.header .header-interactive .language .language-dropdown:after {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  top: -14px;
+  border: 7px solid;
+  border-color: transparent transparent #505052 transparent;
+  right: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003258}}
+.header .header-interactive .language:hover .language-dropdown {
+  opacity: 1;
+  top: 60px;
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003265}}
+.header .header-interactive .site-info {
+  padding: 14px 20px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\000031}}
 .footer {
-  margin: -100px auto;
-  height: 100px;
-  position: relative;
-  z-index: 2;
-  background: url(../img/pattern_gray.png) repeat;
-  border-top: 3px solid #6a6a6a;
-  padding: 40px 0;
-  text-align: center;
-  color: #e5e6e4;
-  font-size: 18px;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  background: #eff1f0;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmZjFmMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2Y1ZjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #eff1f0 0%, #f3f5f4 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eff1f0), color-stop(100%, #f3f5f4));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #eff1f0 0%, #f3f5f4 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #eff1f0 0%, #f3f5f4 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #eff1f0 0%, #f3f5f4 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #eff1f0 0%, #f3f5f4 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eff1f0', endColorstr='#f3f5f4',GradientType=0 );
+  /* IE6-8 */
+  padding: 30px 0 25px;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000313}}
-.footer-logo-holder {
-  vertical-align: middle;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000318}}
+.footer .sosials {
+  margin: 0 0 20px;
+  overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000315}}
-.footer-logo-holder .icon {
-  vertical-align: middle;
-  margin-right: 5px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\000034}}
-.navigation {
-  background: #e8e8e8;
-  border-bottom: 5px solid #c8c8c8;
-  height: 115px;
-  margin-bottom: 40px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\000039}}
-.navigation ul {
-  margin: 0 auto;
-  width: 1200px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000313}}
-.navigation ul > li {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000321}}
+.footer .sosials a {
+  margin-left: 10px;
+  display: block;
   float: left;
-  border-left: 1px solid #c8c8c8;
-  position: relative;
-  height: 115px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000318}}
-.navigation ul > li > a {
-  width: 145px;
-  height: 110px;
-  padding-top: 25px;
-  text-align: center;
-  color: #737373;
-  text-transform: uppercase;
-  font-size: 16px;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
   transition: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000327}}
-.navigation ul > li > a:hover, .navigation ul > li > a:focus {
-  color: #c50008;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000331}}
-.navigation ul > li.is-active {
-  border-bottom: 5px solid #b5363c;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000333}}
-.navigation ul > li.is-active > a {
-  color: #b5363c;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000340}}
-.navigation ul > li.is-active .link-logo_5_10 .icon,
-.navigation ul > li .link-logo_5_10:hover .icon,
-.navigation ul > li .link-logo_5_10:focus .icon {
-  background-position: 0 -935px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000347}}
-.navigation ul > li.is-active .link-about .icon,
-.navigation ul > li .link-about:hover .icon,
-.navigation ul > li .link-about:focus .icon {
-  background-position: 0 -371px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000354}}
-.navigation ul > li.is-active .link-video .icon,
-.navigation ul > li .link-video:hover .icon,
-.navigation ul > li .link-video:focus .icon {
-  background-position: 0 -968px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000361}}
-.navigation ul > li.is-active .link-donate .icon,
-.navigation ul > li .link-donate:hover .icon,
-.navigation ul > li .link-donate:focus .icon {
-  background-position: 0 -727px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000368}}
-.navigation ul > li.is-active .link-buisness .icon,
-.navigation ul > li .link-buisness:hover .icon,
-.navigation ul > li .link-buisness:focus .icon {
-  background-position: 0 -801px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000375}}
-.navigation ul > li.is-active .link-phone .icon,
-.navigation ul > li .link-phone:hover .icon,
-.navigation ul > li .link-phone:focus .icon {
-  background-position: 0 -669px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000379}}
-.navigation ul > li .icon {
-  margin-bottom: 10px;
-  display: block;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000386}}
-.navigation ul > li .icons-about {
-  margin-top: -15px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000389}}
-.navigation ul > li .icons-video {
-  margin-top: 3px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000392}}
-.navigation ul > li .icons-donate {
-  margin-top: -4px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000395}}
-.navigation ul > li .icons-phone {
-  margin-top: 5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\0000398}}
-.navigation ul > li.navigation-indent {
-  border-left: none;
-  margin-left: 300px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003102}}
-.navigation ul > li:last-child {
-  border-right: 1px solid #c8c8c8;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003105}}
-.navigation ul > li:hover nav {
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003109}}
-.navigation ul > li.home {
-  margin-left: -60px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003111}}
-.navigation ul > li.home > a {
-  font-size: 11px;
-  width: 60px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003114}}
-.navigation ul > li.home > a:hover .icons-home {
-  background-position: 0 -836px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003119}}
-.navigation ul > li.home.is-active .icon {
-  background-position: 0 -836px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003125}}
-.navigation a {
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003128}}
-.navigation nav {
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-  background: #f2f2f2;
-  border-radius: 4px;
-  padding: 20px 25px;
-  width: 200px;
-  position: absolute;
-  top: 120px;
-  left: 0;
-  border: none;
-  z-index: 10;
-  display: none;
-  height: auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003141}}
-.navigation nav:before {
-  content: "";
-  height: 10px;
-  width: 100%;
-  position: absolute;
-  top: -10px;
-  left: 0;
-  z-index: 5;
-  cursor: pointer;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003151}}
-.navigation nav a {
-  margin-top: 20px;
-  color: #333333;
-  text-decoration: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003155}}
-.navigation nav a:hover, .navigation nav a:focus {
-  text-decoration: underline;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003158}}
-.navigation nav a:first-child {
-  margin-top: 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_navigation\.scss}line{font-family:\00003165}}
-.side-navigation a {
-  display: block;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000326}}
+.footer .sosials a:first-child {
+  margin-left: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_popup\.scss}line{font-family:\000031}}
@@ -8503,31 +8749,71 @@ button.close {
   z-index: 21;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000032}}
+@font-face {
+  font-family: 'helveticaregular';
+  src: url("../fonts/helvetica-webfont.eot");
+  src: url("../fonts/helvetica-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica-webfont.woff2") format("woff2"), url("../fonts/helvetica-webfont.woff") format("woff"), url("../fonts/helvetica-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue.ttf") format("truetype"), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url("../fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue-Bold.woff") format("woff"), url("../fonts/HelveticaNeue-Bold.ttf") format("truetype"), url("../fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt_sansregular';
+  src: url("../fonts/pt_sans-web-regular-webfont.eot");
+  src: url("../fonts/pt_sans-web-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../fonts/pt_sans-web-regular-webfont.woff") format("woff"), url("../fonts/pt_sans-web-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt_sansbold';
+  src: url("../fonts/pt_sans-web-bold-webfont.eot");
+  src: url("../fonts/pt_sans-web-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans-web-bold-webfont.woff2") format("woff2"), url("../fonts/pt_sans-web-bold-webfont.woff") format("woff"), url("../fonts/pt_sans-web-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000354}}
 html {
   min-height: 100%;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000358}}
 body {
   min-height: 100%;
   height: 100%;
+  color: #323232;
+  font-family: 'HelveticaNeue', 'helveticaregular', sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000364}}
 ul, ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000369}}
 :focus {
   outline: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000372}}
 a {
   -webkit-transition: all, 0.3s;
   -moz-transition: all, 0.3s;
@@ -8535,279 +8821,50 @@ a {
   transition: all, 0.3s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000322}}
-.cf:after, .navigation ul:after, .container:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000376}}
+.cf:after, .wrapper:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000382}}
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000385}}
 .mb10 {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000388}}
 .mb20 {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000391}}
 .pt40 {
   padding-top: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000394}}
 .pb40 {
   padding-bottom: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000397}}
 .right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003100}}
 .left {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000349}}
-.heading4 {
-  font-size: 18px;
-  margin: 0 0 20px;
-  font-weight: normal;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000354}}
-.line-throw {
-  position: relative;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000356}}
-.line-throw:before {
-  content: "";
-  background: #cecece;
-  height: 1px;
-  width: 100%;
-  top: 10px;
-  position: absolute;
-  z-index: 1;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000365}}
-.line-throw span {
-  background: #f2f2f2;
-  padding-right: 10px;
-  z-index: 2;
-  position: relative;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000372}}
-.container {
-  max-width: 1200px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000376}}
-.main-container {
-  padding-bottom: 100px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000380}}
-.top-line-separator,
-.bottom-line-separator {
-  position: relative;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000382}}
-.top-line-separator:before,
-.bottom-line-separator:before {
-  content: "";
-  background-position: 0 -1101px;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  z-index: 5;
-  left: 50%;
-  margin-left: -8px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000393}}
-.top-line-separator {
-  border-top: 1px solid #dcdcdc;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000395}}
-.top-line-separator:before {
-  top: -8px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000399}}
-.bottom-line-separator {
-  border-bottom: 1px solid #dcdcdc;
-  bottom: -8px;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003103}}
-.info-boxes {
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003105}}
-.info-boxes .box {
-  text-decoration: none;
-  width: 290px;
-  display: inline-block;
-  position: relative;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003111}}
-.info-boxes .box:after {
-  content: "";
-  right: -16px;
-  bottom: 0;
-  z-index: 2;
-  position: absolute;
-  width: 16px;
-  height: 310px;
-  background: url(../img/shadow_right.png) no-repeat;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003121}}
-.info-boxes .box .pic-bg {
-  background: #b5363c;
-  display: block;
-  height: 180px;
-  -webkit-transition: all, 0.3s;
-  -moz-transition: all, 0.3s;
-  -o-transition: all, 0.3s;
-  transition: all, 0.3s;
-  border-radius: 4px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003127}}
-.info-boxes .box .pic-bg .icon {
-  position: relative;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003130}}
-.info-boxes .box .pic-bg .icons-what_is_510 {
-  top: 25px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003133}}
-.info-boxes .box .pic-bg .icons-tezis_12 {
-  top: 28px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003136}}
-.info-boxes .box .pic-bg .icons-donate_big {
-  top: 30px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003141}}
-.info-boxes .box:hover .pic-bg {
-  background: #c50008;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003144}}
-.info-boxes .box:hover .title {
-  color: #c50008;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003148}}
-.info-boxes .box .box-text {
-  padding: 20px 40px;
-  background: #e8e8e8;
-  display: block;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  position: relative;
-  min-height: 135px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003156}}
-.info-boxes .box .box-text:before {
-  content: "";
-  height: 5px;
-  position: absolute;
-  left: 2%;
-  width: 96%;
-  background: #dcdcdc;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  display: block;
-  z-index: 2;
-  bottom: -5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003170}}
-.info-boxes .box .title {
-  color: #616161;
-  padding-bottom: 20px;
-  box-shadow: 0 1px 0 #fff;
-  border-bottom: 1px solid #dfdfdf;
-  font-size: 24px;
-  display: block;
-  -webkit-transition: all, 0.3s;
-  -moz-transition: all, 0.3s;
-  -o-transition: all, 0.3s;
-  transition: all, 0.3s;
-  margin-bottom: 20px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003180}}
-.info-boxes .box .description {
-  color: #9c9c9c;
-  font-size: 16px;
-  display: block;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003188}}
-.bullet-list li {
-  padding: 12px 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003191}}
-.bullet-list li:first-child {
-  border-top: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003194}}
-.bullet-list li a {
-  padding-left: 22px;
-  position: relative;
-  text-decoration: none;
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003199}}
-.bullet-list li a:hover, .bullet-list li a:focus {
-  text-decoration: underline;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003202}}
-.bullet-list li a:before {
-  content: "";
-  background-position: 0 -1159px;
-  position: absolute;
-  top: 3px;
-  width: 15px;
-  height: 15px;
-  left: 0;
-  z-index: 2;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003215}}
-.bullet-list.bullet-brd-items li {
-  border-top: 1px dashed #cecece;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003220}}
-.sosials {
-  margin: 30px 0;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003223}}
-.sosials a {
-  display: inline-block;
-  background: #b5363c;
-  position: relative;
-  text-align: center;
-  width: 48px;
-  vertical-align: middle;
-  height: 46px;
-  line-height: 42px;
-  border-radius: 3px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003233}}
-.sosials a:hover {
-  background: #c50008;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003236}}
-.sosials a i {
-  vertical-align: middle;
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
 }

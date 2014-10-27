@@ -15,51 +15,96 @@
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/divunk/html5.js"></script>
   <![endif]-->
+  <!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
 
 </head>
 <body>
-  <div class="modal fade">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title">Modal title</h4>
+  <header class="header">
+    <div class="wrapper">
+      <div class="logo-container">
+        <a href="#" class="logo"><i class="icon icons-logo"></i> GoodlyPro</a>
       </div>
-      <div class="modal-body">
-        <p>One fine body&hellip;</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-
-<!-- Button trigger modal -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="pull-right header-interactive">
+        <section class="entrance-container">
+          <div class="entrance-info">
+            <a href="#">
+              <img src="img/icons/no_avatar.png" width="20" height="20" alt=""/>
+              Вход для клиентов
+              <span class="icon icons-small-arrow-bot"></span>
+            </a>
+          </div>
+          <div class="entrance-popover">
+            <form action="">
+              <div class="heading">Авторизация клиента</div>
+              <div class="field cf">
+                <label for="email">E-mail</label>
+                <div>
+                  <input id="email" name="" type="email" placeholder="Somemail@gmail.com"/>
+                </div>
+              </div>
+              <div class="field">
+                <label for="password">Пароль</label>
+                <a class="forgot-password-link pull-right" href="#">Забыли пароль?</a>
+                <div>
+                  <input id="password" name="" type="password" placeholder="Password"/>
+                </div>
+              </div>
+              <div class="text-center">
+                <input type="submit" class="btn btn-default" value="Войти в кабинет" />
+              </div>
+            </form>
+          </div>
+        </section>
+        <section class="language">
+          <div class="selected-langugae">
+            <span class="icon icons-ru"></span>
+          </div>
+          <div class="language-dropdown">
+            <nav>
+              <a href="#"><i class="icon icons-ru"></i> Русский</a>
+              <a href="#"><i class="icon icons-us"></i> Английский</a>
+            </nav>
+          </div>
+        </section>
+        <section class="site-info">
+          <a href="#" class="icon icons-info"></a>
+        </section>
       </div>
     </div>
-  </div>
-</div>
+  </header>
+  <div class="wrapper"></div>
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="col-md-2 col-sm-12">
+        Все права защищены.
+        Copyright &copy; 2014. Илья Ситнов.
+      </div>
+      <div class="col-md-6 col-sm-12 text-center">
+        ООО «Директ». ОГРН 1137847350970
+        По вопросам звоните по телефону горячей линии: 8-(800)-555-39-79
+с 10.00 до 18.00 в ПН-ПТ, в СБ с 10.00 до 16.00, ВС - выходной,
+время указано московское, звонок бесплатный для РФ.
+      </div>
+      <div class="col-md-4 col-sm-12">
+        Мы в соц. сетях:
+        <nav class="sosials">
+          <a href="#" class="icon icons-vk"></a>
+          <a href="#" class="icon icons-fb"></a>
+          <a href="#" class="icon icons-tw"></a>
+          <a href="#" class="icon icons-inst"></a>
+          <a href="#" class="icon icons-you"></a>
+        </nav>
+        Служба поддержки: <a href="#">задать вопрос</a>
+        Партнерская программа: <a href="#">зарегистрироваться</a>
+      </div>
+    </div>
+  </footer>
 </body>
 <script src="js/jquery-2.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

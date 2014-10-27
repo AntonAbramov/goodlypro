@@ -13,19 +13,17 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 //## Gray and brand colors for use across Bootstrap.
 
 $gray-darker:            lighten(#000, 13.5%) !default; // #222
-$gray-dark:              lighten(#000, 20%) !default;   // #333
+$gray-dark:              #323232 !default;   // #333
 $gray:                   lighten(#000, 33.5%) !default; // #555
 $gray-light:             lighten(#000, 46.7%) !default; // #777
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 
-$brand-primary:         #b5363c !default;
-$red:                   #b5363c !default;
-$brand-primary-hover:   #c50008 !default;
+$brand-primary:         #d5d5d5 !default;
 $red-active:            #c50008 !default;
-$brand-success:         #5cb85c !default;
-$brand-info:            #5bc0de !default;
+$brand-success:         #62c24a !default;
+$brand-info:            #009fd1 !default;
 $brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
+$brand-danger:          #f0300c !default;
 
 
 //== Scaffolding
@@ -40,7 +38,6 @@ $text-color:            $gray-dark !default; // #333;
 //** Global textual link color.
 $link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      $brand-primary-hover !default;
 
 
 //== Typography
@@ -442,7 +439,7 @@ $pagination-color:                     $link-color !default;
 $pagination-bg:                        #fff !default;
 $pagination-border:                    #ddd !default;
 
-$pagination-hover-color:               $link-hover-color !default;
+$pagination-hover-color:               #555 !default;
 $pagination-hover-bg:                  $gray-lighter !default;
 $pagination-hover-border:              #ddd !default;
 
@@ -682,6 +679,7 @@ $list-group-disabled-bg:         $gray-lighter !default;
 $list-group-disabled-text-color: $list-group-disabled-color !default;
 
 $list-group-link-color:         #555 !default;
+$link-hover-color:              #555 !default;
 $list-group-link-hover-color:   $list-group-link-color !default;
 $list-group-link-heading-color: #333 !default;
 
