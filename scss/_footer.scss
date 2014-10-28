@@ -30,5 +30,12 @@
 	}
 	.copyright {
 		margin-top:20px;
+		padding-top:60px;
+	}
+
+	.footer-wrapper {
+		max-width: 1280px;
+		margin:0 auto;
+		@extend .cf;
 	}
 }

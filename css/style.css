@@ -8737,6 +8737,12 @@ button.close {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000331}}
 .footer .copyright {
   margin-top: 20px;
+  padding-top: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000336}}
+.footer .footer-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_popup\.scss}line{font-family:\000031}}
@@ -8804,26 +8810,28 @@ html {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000358}}
 body {
+  min-width: 1100px;
+  margin: 0 auto;
   min-height: 100%;
   height: 100%;
   color: #323232;
-  font-family: 'HelveticaNeue', 'helveticaregular', sans-serif;
+  font-family: 'arial', 'helveticaregular', sans-serif;
   background: url(../img/main_bg.jpg) 50% 0 repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000367}}
 ul, ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000372}}
 :focus {
   outline: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000375}}
 a {
   -webkit-transition: all, 0.3s;
   -moz-transition: all, 0.3s;
@@ -8832,66 +8840,66 @@ a {
   color: #009fd1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000378}}
-.cf:after, .wrapper:after, .steps .step ul:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000380}}
+.cf:after, .footer .footer-wrapper:after, .wrapper:after, .steps .step ul:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000386}}
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-family: 'helveticaneue-bold';
+  font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000390}}
 .mb10 {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000393}}
 .mb20 {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000396}}
 .mb30 {
   margin-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000399}}
 .pt40 {
   padding-top: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003102}}
 .pb40 {
   padding-bottom: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003105}}
 .right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003108}}
 .left {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003111}}
 .rel {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003114}}
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003119}}
 .main-body {
   margin: 40px 0 100px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
@@ -8899,13 +8907,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 7px;
   padding-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003125}}
 .main-body .btn.btn-success {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(255, 255, 255, 0.3) inset;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003131}}
 .main-content {
   margin: 0 -25px 40px;
   background: #fff;
@@ -8914,7 +8922,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   font-size: 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003140}}
 .main-content.first-step-active:before, .main-content.second-step-active:before, .main-content.third-step-active:before {
   content: "";
   border: 6px solid;
@@ -8923,92 +8931,92 @@ h1, h2, h3, h4, h5, h6 {
   top: -12px;
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003148}}
 .main-content.first-step-active:before {
   left: 245px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003151}}
 .main-content.second-step-active:before {
   left: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003154}}
 .main-content.third-step-active:before {
   left: 760px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003158}}
 .main-content .main-content-mark {
   position: absolute;
   z-index: 2;
   right: 40px;
   top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003164}}
 .main-content h1 {
   margin: 0 0 40px;
   font-size: 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003167}}
 .main-content h1 .rel .icons-erth_wrn {
   position: absolute;
   top: 0px;
   left: -50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003173}}
 .main-content .main-content-simple-text {
   font-size: 17px;
   line-height: 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003177}}
 .main-content .danger {
   color: #f0300c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003180}}
 .main-content .main-content-footer {
   margin: 40px -40px 0;
   padding: 40px 40px 0;
   border-top: 1px solid rgba(205, 205, 205, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003184}}
 .main-content .main-content-footer .w460-center {
   margin: 0 auto;
   width: 460px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003189}}
 .main-content .checkbox {
   padding-left: 11px;
   min-height: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003192}}
 .main-content .checkbox .icon {
   position: relative;
   top: 5px;
   left: -11px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003201}}
 .steps {
   padding-top: 25px;
   height: 230px;
   width: 700px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003206}}
 .steps .step-number {
   text-align: center;
   font-size: 18px;
   color: #f1fcee;
   margin: 0 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003212}}
 .steps .step {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003215}}
 .steps .step ul {
   width: 560px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003219}}
 .steps .step ul .icon-step {
   background-position: 0 -185px;
   opacity: .5;
@@ -9016,17 +9024,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003226}}
 .steps .step ul li {
   float: left;
   margin-left: 190px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003229}}
 .steps .step ul li:first-child {
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003235}}
 .steps .step ul .is-active .icon-step, .steps .step ul .is-completed .icon-step {
   background-position: 0 -32px;
   width: 62px;
@@ -9034,11 +9042,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -2px;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003242}}
 .steps .step ul .is-active .text, .steps .step ul .is-completed .text {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003246}}
 .steps .step ul .text {
   position: absolute;
   width: 180px;
@@ -9051,12 +9059,12 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   font-size: 19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003260}}
 .steps .progress-line {
   position: absolute;
   top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003263}}
 .steps .progress-line .line1, .steps .progress-line .line2 {
   width: 170px;
   background: rgba(255, 255, 255, 0.3);
@@ -9065,7 +9073,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003280}}
 .steps .progress-line .line1.complete-10:before, .steps .progress-line .line1.complete-20:before, .steps .progress-line .line1.complete-30:before, .steps .progress-line .line1.complete-40:before, .steps .progress-line .line1.complete-50:before, .steps .progress-line .line1.complete-60:before, .steps .progress-line .line1.complete-70:before, .steps .progress-line .line1.complete-80:before, .steps .progress-line .line1.complete-90:before, .steps .progress-line .line1.complete:before, .steps .progress-line .line2.complete-10:before, .steps .progress-line .line2.complete-20:before, .steps .progress-line .line2.complete-30:before, .steps .progress-line .line2.complete-40:before, .steps .progress-line .line2.complete-50:before, .steps .progress-line .line2.complete-60:before, .steps .progress-line .line2.complete-70:before, .steps .progress-line .line2.complete-80:before, .steps .progress-line .line2.complete-90:before, .steps .progress-line .line2.complete:before {
   position: absolute;
   content: "";
@@ -9074,68 +9082,68 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   z-index: 3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003289}}
 .steps .progress-line .line1.complete-10:before, .steps .progress-line .line2.complete-10:before {
   width: 10%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003290}}
 .steps .progress-line .line1.complete-20:before, .steps .progress-line .line2.complete-20:before {
   width: 20%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003291}}
 .steps .progress-line .line1.complete-30:before, .steps .progress-line .line2.complete-30:before {
   width: 30%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003292}}
 .steps .progress-line .line1.complete-40:before, .steps .progress-line .line2.complete-40:before {
   width: 40%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003293}}
 .steps .progress-line .line1.complete-50:before, .steps .progress-line .line2.complete-50:before {
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003294}}
 .steps .progress-line .line1.complete-60:before, .steps .progress-line .line2.complete-60:before {
   width: 60%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003295}}
 .steps .progress-line .line1.complete-70:before, .steps .progress-line .line2.complete-70:before {
   width: 70%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003296}}
 .steps .progress-line .line1.complete-80:before, .steps .progress-line .line2.complete-80:before {
   width: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003297}}
 .steps .progress-line .line1.complete-90:before, .steps .progress-line .line2.complete-90:before {
   width: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003298}}
 .steps .progress-line .line1.complete:before, .steps .progress-line .line2.complete:before {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003301}}
 .steps .progress-line .line1 {
   left: 140px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003304}}
 .steps .progress-line .line2 {
   left: 390px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003310}}
 .checkbox {
   position: relative;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003313}}
 .checkbox input[type='checkbox'] {
   position: absolute;
   top: -40px;
   z-index: -1;
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003319}}
 .checkbox .icon {
   width: 20px;
   height: 20px;
@@ -9147,7 +9155,7 @@ h1, h2, h3, h4, h5, h6 {
 .checkbox .icon:active, .checkbox .icon.checkbox_active, .checkbox .icon.checkbox-active {
   background-position: 0 -1316px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003326}}
 .checkbox.is-checked .icon, .checkbox input[type='checkbox']:checked + .icon {
   background-position: 0 -1316px;
 }
