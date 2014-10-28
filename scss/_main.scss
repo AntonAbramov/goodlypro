@@ -60,6 +60,7 @@ body {
 	height: 100%;
 	color:$gray-dark;
 	font-family: 'HelveticaNeue', 'helveticaregular', sans-serif;
+	background: url(../img/main_bg.jpg) 50% 0 repeat;
 }
 ul, ol {
 	list-style: none;
@@ -70,7 +71,8 @@ ul, ol {
 	outline: none;
 }
 a {
-	@include transition(all, .3s)
+	@include transition(all, .3s);
+	color:$link-color;
 }
 .cf {
 	&:after {
@@ -81,12 +83,16 @@ a {
 }
 h1,h2,h3,h4,h5,h6 {
 	margin-top:0;
+	font-family: 'helveticaneue-bold';
 }
 .mb10 {
 	margin-bottom:10px;
 }
 .mb20 {
 	margin-bottom:20px;
+}
+.mb30 {
+	margin-bottom:30px;
 }
 .pt40 {
 	padding-top:40px;
@@ -100,8 +106,222 @@ h1,h2,h3,h4,h5,h6 {
 .left {
 	float:left;
 }
+.rel {
+	position: relative;
+}
 .wrapper {
 	max-width: 960px;
 	margin:0 auto;
 	@extend .cf;
+}
+.main-body {
+	margin:40px 0 100px;
+	box-shadow: 0 0 3px rgba(0,0,0, .5);
+	background: rgba(237,237,237, .4);
+	border-radius: 7px;
+	padding-bottom: 40px;
+	.btn.btn-success {
+		text-shadow:0 1px 1px rgba(0,0,0, .3);
+		box-shadow:0 1px 3px rgba(0,0,0, .3), 0 -1px 1px rgba(255,255,255, .3) inset;
+
+	}
+}
+.main-content {
+	margin:0 -25px 40px;
+	background: #fff;
+	border-radius: 7px;
+	padding:40px;
+	position: relative;
+	font-size: 17px;
+	&.first-step-active:before,
+	&.second-step-active:before,
+	&.third-step-active:before{
+		content:"";
+		border:6px solid;
+		border-color:transparent transparent #fff transparent;
+		position: absolute;
+		top:-12px;
+		z-index: 10;
+	}
+	&.first-step-active:before {
+		left:245px
+	}
+	&.second-step-active:before {
+		left:500px
+	}
+	&.third-step-active:before {
+		left:760px
+	}
+
+	.main-content-mark {
+		position: absolute;
+		z-index: 2;
+		right:40px;
+		top:30px;
+	}
+	h1 {
+		margin:0 0 40px;
+		font-size: 28px;
+		.rel .icons-erth_wrn {
+			position: absolute;
+			top: 0px;
+			left: -50px;
+		}
+	}
+	.main-content-simple-text {
+		font-size: 17px;
+		line-height: 28px;
+	}
+	.danger {
+		color:$brand-danger;
+	}
+	.main-content-footer {
+		margin:40px -40px 0;
+		padding:40px 40px 0;
+		border-top:1px solid rgba(205,205,205, .5);
+		.w460-center {
+			margin:0 auto;
+			width:460px;
+		}
+	}
+	.checkbox {
+		padding-left: 11px;
+		min-height: 25px;
+		.icon {
+			position: relative;
+			top:5px;
+			left:-11px;
+		}
+	}
+
+}
+
+.steps {
+	padding-top:25px;
+	height:230px;
+	width:700px;
+	margin:0 auto;
+	.step-number {
+		text-align: center;
+		font-size: 18px;
+		color:#f1fcee;
+		margin:0 0 20px;
+	}
+	.step {
+		position: relative;
+
+		ul {
+			width: 560px;
+			margin: 0 auto;
+			@extend .cf;
+			.icon-step {
+				@include icons-sprite(progress-bad);
+				opacity: .5;
+				width:60px;
+				height:60px;
+				display: block;
+			}
+			li {
+				float:left;
+				margin-left: 190px;
+				&:first-child {
+					margin-left: 0;
+				}
+				position: relative;
+			}
+			.is-active, .is-completed {
+				.icon-step {
+					@include icons-sprite(good);
+					width:62px;
+					height:63px;
+					margin-left:-2px;
+					opacity: 1;
+				}
+				.text {
+					color:#fff;
+				}
+			}
+			.text {
+				position: absolute;
+				width:180px;
+				left:50%;
+				text-align: center;
+				top:90px;
+				margin-left: -90px;
+				z-index: 3;
+				color:#e9e8e4;
+				text-shadow: 0 1px 1px rgba(0,0,0, .2);
+				font-size: 19px;
+			}
+		}
+	}
+	.progress-line {
+		position: absolute;
+		top:30px;
+		.line1, .line2 {
+			width:170px;
+			background: rgba(255,255,255, .3);
+			height:2px;
+			top:0;
+			position: absolute;
+			z-index: 1;
+			&.complete-10,
+			&.complete-20,
+			&.complete-30,
+			&.complete-40,
+			&.complete-50,
+			&.complete-60,
+			&.complete-70,
+			&.complete-80,
+			&.complete-90,
+			&.complete {
+				&:before {
+					position: absolute;
+					content:"";
+					height:2px;
+					background: $brand-success;
+					left:0;
+					z-index: 3;
+				}
+			}
+			&.complete-10:before {width:10%;}
+			&.complete-20:before {width:20%;}
+			&.complete-30:before {width:30%;}
+			&.complete-40:before {width:40%;}
+			&.complete-50:before {width:50%;}
+			&.complete-60:before {width:60%;}
+			&.complete-70:before {width:70%;}
+			&.complete-80:before {width:80%;}
+			&.complete-90:before {width:90%}
+			&.complete:before {width:100%}
+
+		}
+		.line1 {
+			left:140px;
+		}
+		.line2 {
+			left:390px;
+		}
+	}
+}
+
+.checkbox {
+	position: relative;
+	overflow: hidden;
+	input[type='checkbox'] {
+		position: absolute;
+		top:-40px;
+		z-index: -1;
+		visibility: hidden;
+	}
+	.icon {
+		width:20px;
+		height:20px;
+		@include icons-sprite(checkbox);
+		display: inline-block;
+		cursor: pointer;
+	}
+	&.is-checked .icon, input[type='checkbox']:checked + .icon {
+		@include icons-sprite(checkbox_active);
+	}
 }

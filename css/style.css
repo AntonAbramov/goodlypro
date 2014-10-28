@@ -1425,7 +1425,7 @@ textarea {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_scaffolding\.scss}line{font-family:\0000348}}
 a {
-  color: #d5d5d5;
+  color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_scaffolding\.scss}line{font-family:\0000352}}
 a:hover, a:focus {
@@ -1695,12 +1695,12 @@ mark,
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_text-emphasis\.scss}line{font-family:\000035}}
 .text-primary {
-  color: #d5d5d5;
+  color: #009fd1;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_text-emphasis\.scss}line{font-family:\000038}}
 a.text-primary:hover {
-  color: #bcbcbc;
+  color: #00789e;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_text-emphasis\.scss}line{font-family:\000035}}
@@ -1750,12 +1750,12 @@ a.text-danger:hover {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_background-variant\.scss}line{font-family:\000035}}
 .bg-primary {
-  background-color: #d5d5d5;
+  background-color: #009fd1;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_background-variant\.scss}line{font-family:\000038}}
 a.bg-primary:hover {
-  background-color: #bcbcbc;
+  background-color: #00789e;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_background-variant\.scss}line{font-family:\000035}}
@@ -3436,17 +3436,16 @@ label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000346}}
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000352}}
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -3454,24 +3453,24 @@ input[type="checkbox"] {
   line-height: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000359}}
 input[type="file"] {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000364}}
 input[type="range"] {
   display: block;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000371}}
 select[multiple],
 select[size] {
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000378}}
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -3480,7 +3479,7 @@ input[type="checkbox"]:focus {
   outline-offset: -2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\0000383}}
 output {
   display: block;
   padding-top: 7px;
@@ -3489,7 +3488,7 @@ output {
   color: #555555;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003114}}
 .form-control {
   display: block;
   width: 100%;
@@ -3528,24 +3527,24 @@ output {
 .form-control::-webkit-input-placeholder {
   color: #777777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003142}}
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
   cursor: not-allowed;
   background-color: #eeeeee;
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003152}}
 textarea.form-control {
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003164}}
 input[type="search"] {
   -webkit-appearance: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003180}}
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
@@ -3553,7 +3552,7 @@ input[type="month"] {
   line-height: 34px;
   line-height: 20px \0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003185}}
 input[type="date"].input-sm, .form-horizontal .form-group-sm input[type="date"].form-control, .input-group-sm > input[type="date"].form-control,
 .input-group-sm > input[type="date"].input-group-addon,
 .input-group-sm > .input-group-btn > input[type="date"].btn,
@@ -3574,7 +3573,7 @@ input[type="month"].input-sm,
 .input-group-sm > .input-group-btn > input[type="month"].btn {
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003188}}
 input[type="date"].input-lg, .form-horizontal .form-group-lg input[type="date"].form-control, .input-group-lg > input[type="date"].form-control,
 .input-group-lg > input[type="date"].input-group-addon,
 .input-group-lg > .input-group-btn > input[type="date"].btn,
@@ -3593,24 +3592,23 @@ input[type="month"].input-lg,
 .input-group-lg > input[type="month"].form-control,
 .input-group-lg > input[type="month"].input-group-addon,
 .input-group-lg > .input-group-btn > input[type="month"].btn {
-  line-height: 46px;
+  line-height: 22px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003199}}
 .form-group {
   margin-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003209}}
 .radio,
 .checkbox {
   position: relative;
   display: block;
   min-height: 20px;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003215}}
 .radio label,
 .checkbox label {
   padding-left: 20px;
@@ -3619,7 +3617,7 @@ input[type="month"].input-lg,
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003225}}
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -3629,13 +3627,13 @@ input[type="month"].input-lg,
   margin-top: 4px \9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003232}}
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003238}}
 .radio-inline,
 .checkbox-inline {
   display: inline-block;
@@ -3646,14 +3644,14 @@ input[type="month"].input-lg,
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003247}}
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
   margin-left: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003262}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003260}}
 input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"],
 input[type="checkbox"][disabled],
 input[type="checkbox"].disabled, fieldset[disabled]
@@ -3661,27 +3659,27 @@ input[type="checkbox"] {
   cursor: not-allowed;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003268}}
 .radio-inline.disabled, fieldset[disabled] .radio-inline,
 .checkbox-inline.disabled, fieldset[disabled]
 .checkbox-inline {
   cursor: not-allowed;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003277}}
 .radio.disabled label, fieldset[disabled] .radio label,
 .checkbox.disabled label, fieldset[disabled]
 .checkbox label {
   cursor: not-allowed;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003289}}
 .form-control-static {
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003297}}
 .form-control-static.input-lg, .form-horizontal .form-group-lg .form-control-static.form-control, .input-group-lg > .form-control-static.form-control,
 .input-group-lg > .form-control-static.input-group-addon,
 .input-group-lg > .input-group-btn > .form-control-static.btn, .form-control-static.input-sm, .form-horizontal .form-group-sm .form-control-static.form-control, .input-group-sm > .form-control-static.form-control,
@@ -3726,10 +3724,10 @@ select[multiple].input-sm,
 .input-lg, .form-horizontal .form-group-lg .form-control, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 46px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
+  height: 22px;
+  padding: 17px 30px;
+  font-size: 22px;
+  line-height: 22px;
   border-radius: 6px;
 }
 
@@ -3737,8 +3735,8 @@ select[multiple].input-sm,
 select.input-lg, .form-horizontal .form-group-lg select.form-control, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn {
-  height: 46px;
-  line-height: 46px;
+  height: 22px;
+  line-height: 22px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_forms\.scss}line{font-family:\0000381}}
@@ -3753,16 +3751,16 @@ select[multiple].input-lg,
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003318}}
 .has-feedback {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003323}}
 .has-feedback .form-control {
   padding-right: 42.5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003328}}
 .form-control-feedback {
   position: absolute;
   top: 25px;
@@ -3775,16 +3773,16 @@ select[multiple].input-lg,
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003339}}
 .input-lg + .form-control-feedback, .form-horizontal .form-group-lg .form-control + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback,
 .input-group-lg > .input-group-addon + .form-control-feedback,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback {
-  width: 46px;
-  height: 46px;
-  line-height: 46px;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003344}}
 .input-sm + .form-control-feedback, .form-horizontal .form-group-sm .form-control + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
 .input-group-sm > .input-group-addon + .form-control-feedback,
 .input-group-sm > .input-group-btn > .btn + .form-control-feedback {
@@ -3889,12 +3887,12 @@ select[multiple].input-lg,
   color: #a94442;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003363}}
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003373}}
 .help-block {
   display: block;
   margin-top: 5px;
@@ -3903,24 +3901,24 @@ select[multiple].input-lg,
 }
 
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003398}}
   .form-inline .form-group, .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003405}}
   .form-inline .form-control, .navbar-form .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003411}}
   .form-inline .input-group, .navbar-form .input-group {
     display: inline-table;
     vertical-align: middle;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003417}}
   .form-inline .input-group .input-group-addon, .navbar-form .input-group .input-group-addon,
   .form-inline .input-group .input-group-btn,
   .navbar-form .input-group .input-group-btn,
@@ -3928,16 +3926,16 @@ select[multiple].input-lg,
   .navbar-form .input-group .form-control {
     width: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003423}}
   .form-inline .input-group > .form-control, .navbar-form .input-group > .form-control {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003427}}
   .form-inline .control-label, .navbar-form .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003436}}
   .form-inline .radio, .navbar-form .radio,
   .form-inline .checkbox,
   .navbar-form .checkbox {
@@ -3946,26 +3944,26 @@ select[multiple].input-lg,
     margin-bottom: 0;
     vertical-align: middle;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003442}}
   .form-inline .radio label, .navbar-form .radio label,
   .form-inline .checkbox label,
   .navbar-form .checkbox label {
     padding-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003449}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003447}}
   .form-inline .radio input[type="radio"], .navbar-form .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"],
   .navbar-form .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003456}}
   .form-inline .has-feedback .form-control-feedback, .navbar-form .has-feedback .form-control-feedback {
     top: 0;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003476}}
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
@@ -3974,12 +3972,12 @@ select[multiple].input-lg,
   margin-bottom: 0;
   padding-top: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003486}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003484}}
 .form-horizontal .radio,
 .form-horizontal .checkbox {
   min-height: 27px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003489}}
 .form-horizontal .form-group {
   margin-left: -15px;
   margin-right: -15px;
@@ -3994,26 +3992,26 @@ select[multiple].input-lg,
   clear: both;
 }
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003496}}
   .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 0;
     padding-top: 7px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003507}}
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
   right: 15px;
 }
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003518}}
   .form-horizontal .form-group-lg .control-label {
-    padding-top: 14.3px;
+    padding-top: 10px;
   }
 }
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_forms\.scss}line{font-family:\00003528}}
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
   }
@@ -4097,14 +4095,14 @@ select[multiple].input-lg,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\0000360}}
 .btn-primary {
   color: white;
-  background-color: #d5d5d5;
-  border-color: #c8c8c8;
+  background-color: #009fd1;
+  border-color: #008cb7;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000315}}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: white;
-  background-color: #bcbcbc;
-  border-color: #aaaaaa;
+  background-color: #00789e;
+  border-color: #005d7a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000322}}
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -4112,12 +4110,12 @@ select[multiple].input-lg,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000332}}
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #d5d5d5;
-  border-color: #c8c8c8;
+  background-color: #009fd1;
+  border-color: #008cb7;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_buttons\.scss}line{font-family:\0000338}}
 .btn-primary .badge {
-  color: #d5d5d5;
+  color: #009fd1;
   background-color: white;
 }
 
@@ -4231,7 +4229,7 @@ select[multiple].input-lg,
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\0000385}}
 .btn-link {
-  color: #d5d5d5;
+  color: #009fd1;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -4260,9 +4258,9 @@ select[multiple].input-lg,
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_buttons\.scss}line{font-family:\00003124}}
 .btn-lg, .btn-group-lg > .btn {
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
+  padding: 17px 30px;
+  font-size: 22px;
+  line-height: 22px;
   border-radius: 6px;
 }
 
@@ -4420,7 +4418,7 @@ tbody.collapse.in {
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #d5d5d5;
+  background-color: #009fd1;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_dropdowns\.scss}line{font-family:\00003103}}
@@ -4825,8 +4823,8 @@ tbody.collapse.in {
 .input-group-addon.input-lg, .form-horizontal .form-group-lg .input-group-addon.form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
-  padding: 10px 16px;
-  font-size: 18px;
+  padding: 17px 30px;
+  font-size: 22px;
   border-radius: 6px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_input-groups\.scss}line{font-family:\0000398}}
@@ -4943,7 +4941,7 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_navs\.scss}line{font-family:\0000348}}
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #d5d5d5;
+  border-color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_navs\.scss}line{font-family:\0000359}}
 .nav .nav-divider {
@@ -5001,7 +4999,7 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_navs\.scss}line{font-family:\00003133}}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: white;
-  background-color: #d5d5d5;
+  background-color: #009fd1;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_navs\.scss}line{font-family:\00003144}}
@@ -5258,7 +5256,7 @@ tbody.collapse.in {
 .navbar-brand {
   float: left;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 20px;
   height: 50px;
 }
@@ -5710,7 +5708,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 20px;
   text-decoration: none;
-  color: #d5d5d5;
+  color: #009fd1;
   background-color: white;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -5743,8 +5741,8 @@ tbody.collapse.in {
 .pagination > .active > span:focus {
   z-index: 2;
   color: white;
-  background-color: #d5d5d5;
-  border-color: #d5d5d5;
+  background-color: #009fd1;
+  border-color: #009fd1;
   cursor: default;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_pagination\.scss}line{font-family:\0000368}}
@@ -5763,8 +5761,8 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_pagination\.scss}line{font-family:\000036}}
 .pagination-lg > li > a,
 .pagination-lg > li > span {
-  padding: 10px 16px;
-  font-size: 18px;
+  padding: 17px 30px;
+  font-size: 22px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_pagination\.scss}line{font-family:\0000312}}
 .pagination-lg > li:first-child > a,
@@ -5894,11 +5892,11 @@ a.label:hover, a.label:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_labels\.scss}line{font-family:\0000348}}
 .label-primary {
-  background-color: #d5d5d5;
+  background-color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_labels\.scss}line{font-family:\000038}}
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #bcbcbc;
+  background-color: #00789e;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_labels\.scss}line{font-family:\0000352}}
@@ -5968,7 +5966,7 @@ a.label:hover, a.label:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_badges\.scss}line{font-family:\0000340}}
 a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #d5d5d5;
+  color: #009fd1;
   background-color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_badges\.scss}line{font-family:\0000344}}
@@ -6064,7 +6062,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #d5d5d5;
+  border-color: #009fd1;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_alerts\.scss}line{font-family:\000039}}
@@ -6211,7 +6209,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: white;
   text-align: center;
-  background-color: #d5d5d5;
+  background-color: #009fd1;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6404,8 +6402,8 @@ a.list-group-item:hover, a.list-group-item:focus {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: white;
-  background-color: #d5d5d5;
-  border-color: #d5d5d5;
+  background-color: #009fd1;
+  border-color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_list-group\.scss}line{font-family:\00003100}}
 .list-group-item.active .list-group-item-heading,
@@ -6419,7 +6417,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_list-group\.scss}line{font-family:\00003103}}
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: white;
+  color: #9ee8ff;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_list-group\.scss}line{font-family:\000034}}
@@ -6818,26 +6816,26 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_panels\.scss}line{font-family:\00003229}}
 .panel-primary {
-  border-color: #d5d5d5;
+  border-color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\000036}}
 .panel-primary > .panel-heading {
   color: white;
-  background-color: #d5d5d5;
-  border-color: #d5d5d5;
+  background-color: #009fd1;
+  border-color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000311}}
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #d5d5d5;
+  border-top-color: #009fd1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000314}}
 .panel-primary > .panel-heading .badge {
-  color: #d5d5d5;
+  color: #009fd1;
   background-color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000320}}
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #d5d5d5;
+  border-bottom-color: #009fd1;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/bootstrap\/bootstrap\/_panels\.scss}line{font-family:\00003232}}
@@ -8033,20 +8031,20 @@ button.close {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/icons\/\*\.png}line{font-family:\00003426}}
-.icons-sprite, .icons-back, .icons-bad, .icons-bank, .icons-books, .icons-cart, .icons-checkbox, .icons-close, .icons-delivery, .icons-done, .icons-down, .icons-erth_wrn, .icons-fb, .icons-fleshka, .icons-footer_logo, .icons-go, .icons-good, .icons-hand, .icons-id, .icons-info, .icons-inst, .icons-laptop, .icons-lock, .icons-logo, .icons-map, .icons-money, .icons-no_avatar, .icons-note, .icons-pencil, .icons-people, .icons-person, .icons-ppl_phone, .icons-question, .icons-radio, .icons-ru, .icons-small-arrow-bot, .icons-tw, .icons-up, .icons-us, .icons-vk, .icons-you {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/icons\/\*\.png}line{font-family:\00003434}}
+.icons-sprite, .icons-back, .icons-bad, .icons-bank, .icons-books, .icons-cart, .icons-checkbox, .icons-close, .icons-delivery, .icons-done, .icons-down, .icons-erth_wrn, .icons-fb, .icons-fleshka, .icons-footer_logo, .icons-go, .icons-good, .icons-hand, .icons-id, .icons-info, .icons-inst, .icons-laptop, .icons-lock, .icons-logo, .icons-map, .icons-money, .icons-no_avatar, .icons-note, .icons-pencil, .icons-people, .icons-person, .icons-ppl_phone, .icons-progress-bad, .icons-question, .icons-radio, .icons-ru, .icons-small-arrow-bot, .icons-tw, .icons-up, .icons-us, .icons-vk, .icons-you, .steps .step ul .icon-step, .steps .step ul .is-active .icon-step, .steps .step ul .is-completed .icon-step, .checkbox .icon, .checkbox.is-checked .icon, .checkbox input[type='checkbox']:checked + .icon {
   background: url('../img/icons.png') no-repeat;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-back {
-  background-position: 0 -272px;
+  background-position: 0 -332px;
   height: 48px;
   width: 48px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-back:hover, .icons-back.back_hover, .icons-back.back-hover {
-  background-position: 0 -320px;
+  background-position: 0 -380px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
@@ -8058,89 +8056,89 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-bank {
-  background-position: 0 -1089px;
+  background-position: 0 -1149px;
   height: 29px;
   width: 29px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-books {
-  background-position: 0 -233px;
+  background-position: 0 -293px;
   height: 39px;
   width: 41px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-cart {
-  background-position: 0 -1056px;
+  background-position: 0 -1116px;
   height: 33px;
   width: 30px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-checkbox {
-  background-position: 0 -1480px;
+  background-position: 0 -1540px;
   height: 20px;
   width: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-checkbox:active, .icons-checkbox.checkbox_active, .icons-checkbox.checkbox-active {
-  background-position: 0 -1256px;
+  background-position: 0 -1316px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-close {
-  background-position: 0 -966px;
+  background-position: 0 -1026px;
   height: 26px;
   width: 26px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-close:hover, .icons-close.close_hover, .icons-close.close-hover {
-  background-position: 0 -992px;
+  background-position: 0 -1052px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-delivery {
-  background-position: 0 -368px;
+  background-position: 0 -428px;
   height: 33px;
   width: 33px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-done {
-  background-position: 0 -185px;
+  background-position: 0 -245px;
   height: 48px;
   width: 48px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-down {
-  background-position: 0 -1417px;
+  background-position: 0 -1477px;
   height: 12px;
   width: 19px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-erth_wrn {
-  background-position: 0 -422px;
+  background-position: 0 -482px;
   height: 33px;
   width: 36px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-fb {
-  background-position: 0 -898px;
+  background-position: 0 -958px;
   height: 34px;
   width: 35px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-fb:hover, .icons-fb.fb_hover, .icons-fb.fb-hover {
-  background-position: 0 -932px;
+  background-position: 0 -992px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-fleshka {
-  background-position: 0 -1018px;
+  background-position: 0 -1078px;
   height: 38px;
   width: 37px;
 }
@@ -8154,7 +8152,7 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-go {
-  background-position: 0 -1376px;
+  background-position: 0 -1436px;
   height: 26px;
   width: 25px;
 }
@@ -8168,46 +8166,46 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-hand {
-  background-position: 0 -590px;
+  background-position: 0 -650px;
   height: 39px;
   width: 39px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-id {
-  background-position: 0 -1178px;
+  background-position: 0 -1238px;
   height: 29px;
   width: 29px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-info {
-  background-position: 0 -401px;
+  background-position: 0 -461px;
   height: 21px;
   width: 20px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-inst {
-  background-position: 0 -731px;
+  background-position: 0 -791px;
   height: 34px;
   width: 34px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-inst:hover, .icons-inst.inst_hover, .icons-inst.inst-hover {
-  background-position: 0 -663px;
+  background-position: 0 -723px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-laptop {
-  background-position: 0 -1441px;
+  background-position: 0 -1501px;
   height: 31px;
   width: 48px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-lock {
-  background-position: 0 -1351px;
+  background-position: 0 -1411px;
   height: 25px;
   width: 19px;
 }
@@ -8221,137 +8219,144 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-map {
-  background-position: 0 -489px;
+  background-position: 0 -549px;
   height: 33px;
   width: 30px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-money {
-  background-position: 0 -861px;
+  background-position: 0 -921px;
   height: 37px;
   width: 34px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-no_avatar {
-  background-position: 0 -1331px;
+  background-position: 0 -1391px;
   height: 20px;
   width: 20px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-note {
-  background-position: 0 -800px;
+  background-position: 0 -860px;
   height: 27px;
   width: 28px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-pencil {
-  background-position: 0 -1302px;
+  background-position: 0 -1362px;
   height: 29px;
   width: 29px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-people {
-  background-position: 0 -765px;
+  background-position: 0 -825px;
   height: 35px;
   width: 34px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-person {
-  background-position: 0 -1276px;
+  background-position: 0 -1336px;
   height: 26px;
   width: 22px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-ppl_phone {
-  background-position: 0 -1227px;
+  background-position: 0 -1287px;
   height: 29px;
   width: 21px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icons-progress-bad {
+  background-position: 0 -185px;
+  height: 60px;
+  width: 60px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-question {
-  background-position: 0 -1118px;
+  background-position: 0 -1178px;
   height: 25px;
   width: 25px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-radio {
-  background-position: 0 -1207px;
+  background-position: 0 -1267px;
   height: 20px;
   width: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-radio:active, .icons-radio.radio_active, .icons-radio.radio-active {
-  background-position: 0 -1143px;
+  background-position: 0 -1203px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-ru {
-  background-position: 0 -1402px;
+  background-position: 0 -1462px;
   height: 15px;
   width: 21px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-small-arrow-bot {
-  background-position: 0 -1472px;
+  background-position: 0 -1532px;
   height: 8px;
   width: 11px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-tw {
-  background-position: 0 -827px;
+  background-position: 0 -887px;
   height: 34px;
   width: 34px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-tw:hover, .icons-tw.tw_hover, .icons-tw.tw-hover {
-  background-position: 0 -556px;
+  background-position: 0 -616px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-up {
-  background-position: 0 -1429px;
+  background-position: 0 -1489px;
   height: 12px;
   width: 19px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-us {
-  background-position: 0 -1163px;
+  background-position: 0 -1223px;
   height: 15px;
   width: 20px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-vk {
-  background-position: 0 -697px;
+  background-position: 0 -757px;
   height: 34px;
   width: 34px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-vk:hover, .icons-vk.vk_hover, .icons-vk.vk-hover {
-  background-position: 0 -522px;
+  background-position: 0 -582px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
 .icons-you {
-  background-position: 0 -629px;
+  background-position: 0 -689px;
   height: 34px;
   width: 34px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
 .icons-you:hover, .icons-you.you_hover, .icons-you.you-hover {
-  background-position: 0 -455px;
+  background-position: 0 -515px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_sprite\.scss}line{font-family:\0000311}}
@@ -8729,6 +8734,10 @@ button.close {
 .footer .sosials a:first-child {
   margin-left: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000331}}
+.footer .copyright {
+  margin-top: 20px;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_popup\.scss}line{font-family:\000031}}
 .overlay {
@@ -8799,72 +8808,346 @@ body {
   height: 100%;
   color: #323232;
   font-family: 'HelveticaNeue', 'helveticaregular', sans-serif;
+  background: url(../img/main_bg.jpg) 50% 0 repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000365}}
 ul, ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000370}}
 :focus {
   outline: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000373}}
 a {
   -webkit-transition: all, 0.3s;
   -moz-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
+  color: #009fd1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000376}}
-.cf:after, .wrapper:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000378}}
+.cf:after, .wrapper:after, .steps .step ul:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000384}}
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+  font-family: 'helveticaneue-bold';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000388}}
 .mb10 {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000391}}
 .mb20 {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000394}}
+.mb30 {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000397}}
 .pt40 {
   padding-top: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003100}}
 .pb40 {
   padding-bottom: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003103}}
 .right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003106}}
 .left {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003109}}
+.rel {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003112}}
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003117}}
+.main-body {
+  margin: 40px 0 100px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  background: rgba(237, 237, 237, 0.4);
+  border-radius: 7px;
+  padding-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003123}}
+.main-body .btn.btn-success {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(255, 255, 255, 0.3) inset;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003129}}
+.main-content {
+  margin: 0 -25px 40px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 40px;
+  position: relative;
+  font-size: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003138}}
+.main-content.first-step-active:before, .main-content.second-step-active:before, .main-content.third-step-active:before {
+  content: "";
+  border: 6px solid;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  top: -12px;
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003146}}
+.main-content.first-step-active:before {
+  left: 245px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003149}}
+.main-content.second-step-active:before {
+  left: 500px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003152}}
+.main-content.third-step-active:before {
+  left: 760px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003156}}
+.main-content .main-content-mark {
+  position: absolute;
+  z-index: 2;
+  right: 40px;
+  top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003162}}
+.main-content h1 {
+  margin: 0 0 40px;
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003165}}
+.main-content h1 .rel .icons-erth_wrn {
+  position: absolute;
+  top: 0px;
+  left: -50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003171}}
+.main-content .main-content-simple-text {
+  font-size: 17px;
+  line-height: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003175}}
+.main-content .danger {
+  color: #f0300c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003178}}
+.main-content .main-content-footer {
+  margin: 40px -40px 0;
+  padding: 40px 40px 0;
+  border-top: 1px solid rgba(205, 205, 205, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003182}}
+.main-content .main-content-footer .w460-center {
+  margin: 0 auto;
+  width: 460px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003187}}
+.main-content .checkbox {
+  padding-left: 11px;
+  min-height: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003190}}
+.main-content .checkbox .icon {
+  position: relative;
+  top: 5px;
+  left: -11px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003199}}
+.steps {
+  padding-top: 25px;
+  height: 230px;
+  width: 700px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003204}}
+.steps .step-number {
+  text-align: center;
+  font-size: 18px;
+  color: #f1fcee;
+  margin: 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003210}}
+.steps .step {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003213}}
+.steps .step ul {
+  width: 560px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003217}}
+.steps .step ul .icon-step {
+  background-position: 0 -185px;
+  opacity: .5;
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003224}}
+.steps .step ul li {
+  float: left;
+  margin-left: 190px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003227}}
+.steps .step ul li:first-child {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003233}}
+.steps .step ul .is-active .icon-step, .steps .step ul .is-completed .icon-step {
+  background-position: 0 -32px;
+  width: 62px;
+  height: 63px;
+  margin-left: -2px;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003240}}
+.steps .step ul .is-active .text, .steps .step ul .is-completed .text {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003244}}
+.steps .step ul .text {
+  position: absolute;
+  width: 180px;
+  left: 50%;
+  text-align: center;
+  top: 90px;
+  margin-left: -90px;
+  z-index: 3;
+  color: #e9e8e4;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 19px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003258}}
+.steps .progress-line {
+  position: absolute;
+  top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003261}}
+.steps .progress-line .line1, .steps .progress-line .line2 {
+  width: 170px;
+  background: rgba(255, 255, 255, 0.3);
+  height: 2px;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003278}}
+.steps .progress-line .line1.complete-10:before, .steps .progress-line .line1.complete-20:before, .steps .progress-line .line1.complete-30:before, .steps .progress-line .line1.complete-40:before, .steps .progress-line .line1.complete-50:before, .steps .progress-line .line1.complete-60:before, .steps .progress-line .line1.complete-70:before, .steps .progress-line .line1.complete-80:before, .steps .progress-line .line1.complete-90:before, .steps .progress-line .line1.complete:before, .steps .progress-line .line2.complete-10:before, .steps .progress-line .line2.complete-20:before, .steps .progress-line .line2.complete-30:before, .steps .progress-line .line2.complete-40:before, .steps .progress-line .line2.complete-50:before, .steps .progress-line .line2.complete-60:before, .steps .progress-line .line2.complete-70:before, .steps .progress-line .line2.complete-80:before, .steps .progress-line .line2.complete-90:before, .steps .progress-line .line2.complete:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: #62c24a;
+  left: 0;
+  z-index: 3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003287}}
+.steps .progress-line .line1.complete-10:before, .steps .progress-line .line2.complete-10:before {
+  width: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003288}}
+.steps .progress-line .line1.complete-20:before, .steps .progress-line .line2.complete-20:before {
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003289}}
+.steps .progress-line .line1.complete-30:before, .steps .progress-line .line2.complete-30:before {
+  width: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003290}}
+.steps .progress-line .line1.complete-40:before, .steps .progress-line .line2.complete-40:before {
+  width: 40%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003291}}
+.steps .progress-line .line1.complete-50:before, .steps .progress-line .line2.complete-50:before {
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003292}}
+.steps .progress-line .line1.complete-60:before, .steps .progress-line .line2.complete-60:before {
+  width: 60%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003293}}
+.steps .progress-line .line1.complete-70:before, .steps .progress-line .line2.complete-70:before {
+  width: 70%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003294}}
+.steps .progress-line .line1.complete-80:before, .steps .progress-line .line2.complete-80:before {
+  width: 80%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003295}}
+.steps .progress-line .line1.complete-90:before, .steps .progress-line .line2.complete-90:before {
+  width: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003296}}
+.steps .progress-line .line1.complete:before, .steps .progress-line .line2.complete:before {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003299}}
+.steps .progress-line .line1 {
+  left: 140px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003302}}
+.steps .progress-line .line2 {
+  left: 390px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003308}}
+.checkbox {
+  position: relative;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003311}}
+.checkbox input[type='checkbox'] {
+  position: absolute;
+  top: -40px;
+  z-index: -1;
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003317}}
+.checkbox .icon {
+  width: 20px;
+  height: 20px;
+  background-position: 0 -1540px;
+  display: inline-block;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000343}}
+.checkbox .icon:active, .checkbox .icon.checkbox_active, .checkbox .icon.checkbox-active {
+  background-position: 0 -1316px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003324}}
+.checkbox.is-checked .icon, .checkbox input[type='checkbox']:checked + .icon {
+  background-position: 0 -1316px;
 }

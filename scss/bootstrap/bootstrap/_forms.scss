@@ -33,7 +33,6 @@ label {
   display: inline-block;
   max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
   margin-bottom: 5px;
-  font-weight: bold;
 }
 
 
@@ -211,7 +210,6 @@ input[type="month"] {
   position: relative;
   display: block;
   min-height: $line-height-computed; // clear the floating input if there is no label text
-  margin-top: 10px;
   margin-bottom: 10px;
 
   label {
@@ -518,7 +516,7 @@ input[type="checkbox"] {
   .form-group-lg {
     @media (min-width: $screen-sm-min) {
       .control-label {
-        padding-top: (($padding-large-vertical * $line-height-large) + 1);
+        padding-top: 10px;
       }
     }
     .form-control {
