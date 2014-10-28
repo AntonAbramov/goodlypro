@@ -8497,15 +8497,26 @@ button.close {
   right: 18px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003102}}
+.header .header-interactive .entrance-container .entrance-popover:before {
+  content: "";
+  top: -12px;
+  width: 100%;
+  height: 12px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003112}}
 .header .header-interactive .entrance-container .entrance-popover .heading {
   font-size: 16px;
   margin: 0 0 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003117}}
 .header .header-interactive .entrance-container .entrance-popover .field {
   margin: 0 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003121}}
 .header .header-interactive .entrance-container .entrance-popover .field input[type='text'],
 .header .header-interactive .entrance-container .entrance-popover .field input[type='email'],
 .header .header-interactive .entrance-container .entrance-popover .field input[type='password'] {
@@ -8517,30 +8528,27 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   color: #fff;
   font-size: 14px;
-  font-family: 'pt_sansregular';
   border: 1px solid #3b3b3d;
   width: 100%;
   background: #828283;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003135}}
 .header .header-interactive .entrance-container .entrance-popover .field .forgot-password-link {
   color: #828283;
   text-decoration: none;
-  font-family: 'pt_sansregular';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003140}}
 .header .header-interactive .entrance-container .entrance-popover .field label {
   font-family: 'pt_sansregular';
   margin: 0;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003146}}
 .header .header-interactive .entrance-container .entrance-popover .btn-default {
   margin-top: 10px;
-  padding: 7px 18px 3px;
+  padding: 5px 18px 5px;
   font-size: 14px;
   color: #323232;
-  font-family: 'pt_sansbold';
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   background: #fbfbfb;
   /* Old browsers */
@@ -8561,45 +8569,44 @@ button.close {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#efefef',GradientType=0 );
   /* IE6-8 */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003157}}
-.header .header-interactive .entrance-container.is-open .entrance-popover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003167}}
+.header .header-interactive .entrance-container:hover .entrance-popover {
   opacity: 1;
   z-index: 10;
   top: 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003175}}
 .header .header-interactive .entrance-info a {
   text-decoration: none;
   height: 49px;
   width: 207px;
-  padding: 15px 20px;
+  padding: 15px 16px;
   line-height: 19px;
   display: block;
   color: #fff;
   font-size: 14px;
-  font-family: 'pt_sansregular';
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003186}}
 .header .header-interactive .entrance-info a:hover, .header .header-interactive .entrance-info a.logged {
   background: url(../img/bg-entrance.png) no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003189}}
 .header .header-interactive .entrance-info a img {
   margin-right: 10px;
   position: relative;
   top: -2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003197}}
 .header .header-interactive .language .selected-langugae {
   padding: 17px 20px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003200}}
 .header .header-interactive .language .selected-langugae > span {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003204}}
 .header .header-interactive .language .language-dropdown {
   position: absolute;
   z-index: -1;
@@ -8632,7 +8639,7 @@ button.close {
   /* IE6-8 */
   width: 160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003224}}
 .header .header-interactive .language .language-dropdown a {
   display: block;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -8640,26 +8647,25 @@ button.close {
   padding: 14px 15px 14px 20px;
   line-height: 20px;
   color: #fff;
-  font-family: 'pt_sansregular';
   font-size: 16px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003235}}
 .header .header-interactive .language .language-dropdown a:first-child {
   border-top: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003238}}
 .header .header-interactive .language .language-dropdown a:last-child {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003241}}
 .header .header-interactive .language .language-dropdown a .icon {
   margin-right: 13px;
   position: relative;
   top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003247}}
 .header .header-interactive .language .language-dropdown:before {
   content: "";
   top: -12px;
@@ -8670,7 +8676,7 @@ button.close {
   left: 0;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003257}}
 .header .header-interactive .language .language-dropdown:after {
   content: "";
   position: absolute;
@@ -8680,15 +8686,59 @@ button.close {
   border-color: transparent transparent #505052 transparent;
   right: 23px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003268}}
 .header .header-interactive .language:hover .language-dropdown {
   opacity: 1;
   top: 60px;
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003275}}
 .header .header-interactive .site-info {
   padding: 14px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003278}}
+.header .header-interactive .site-info .site-info-popover {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  opacity: 0;
+  width: 250px;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  background: #fafafa;
+  top: 55px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003290}}
+.header .header-interactive .site-info .site-info-popover:before {
+  content: "";
+  top: -12px;
+  width: 100%;
+  height: 12px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003300}}
+.header .header-interactive .site-info .site-info-popover:after {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  top: -14px;
+  border: 7px solid;
+  border-color: transparent transparent #fafafa transparent;
+  right: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_header\.scss}line{font-family:\00003311}}
+.header .header-interactive .site-info:hover .site-info-popover {
+  opacity: 1;
+  z-index: 10;
+  top: 60px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\000031}}
@@ -8737,7 +8787,7 @@ button.close {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000331}}
 .footer .copyright {
   margin-top: 20px;
-  padding-top: 60px;
+  padding-top: 81px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000336}}
 .footer .footer-wrapper {
