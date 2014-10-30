@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title></title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Anton Abramov"/>
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+  <link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css">
+  <link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css">
+  <link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css">
+  <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/divunk/html5.js"></script>
+  <![endif]-->
+  <!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+</head>
+<body>
+  <header class="header cf">
+    <div class="logo-container">
+      <a href="#" class="logo"><i class="icon icons-logo"></i> GoodlyPro</a>
+    </div>
+    <div class="pull-right header-interactive">
+        <section class="entrance-container">
+          <div class="entrance-info">
+            <a href="#">
+              <img src="img/icons/no_avatar.png" width="20" height="20" alt=""/>
+              Вход для клиентов
+              <span class="icon icons-small-arrow-bot"></span>
+            </a>
+          </div>
+          <div class="entrance-popover">
+            <form action="">
+              <div class="heading">Авторизация клиента</div>
+              <div class="field cf">
+                <label for="email">E-mail</label>
+                <div>
+                  <input id="email" name="" type="email" placeholder="Somemail@gmail.com"/>
+                </div>
+              </div>
+              <div class="field">
+                <label for="password">Пароль</label>
+                <a class="forgot-password-link pull-right" href="#">Забыли пароль?</a>
+                <div>
+                  <input id="password" name="" type="password" placeholder="Password"/>
+                </div>
+              </div>
+              <div class="text-center">
+                <input type="submit" class="btn btn-default" value="Войти в кабинет" />
+              </div>
+            </form>
+          </div>
+        </section>
+        <section class="language">
+          <div class="selected-langugae">
+            <span class="icon icons-ru"></span>
+          </div>
+          <div class="language-dropdown">
+            <nav>
+              <a href="#"><i class="icon icons-ru"></i> Русский</a>
+              <a href="#"><i class="icon icons-us"></i> Английский</a>
+            </nav>
+          </div>
+        </section>
+        <section class="site-info">
+          <a href="#" class="icon icons-info"></a>
+          <div class="site-info-popover">
+            some text
+            some text
+            some text
+            some text
+            some text
+            some text
+            some text
+            some text
+          </div>
+        </section>
+      </div>
+  </header>
+  <div class="wrapper">
+    <div class="main-body">
+      <div class="steps">
+        <div class="step-number">1/3</div>
+        <div class="step">
+          <div class="progress-line">
+            <span class="line1 complete"></span>
+            <span class="line2 complete"></span>
+          </div>
+           <ul>
+            <li class="first is-completed">
+              <span class="icon-step"></span>
+              <span class="text">
+                Способ доставки <br/>
+              и оплаты
+              </span>
+            </li>
+            <li class="second is-completed">
+              <span class="icon-step"></span>
+              <span class="text">
+                Ваша корзина
+              </span>
+            </li>
+            <li class="third is-active">
+              <span class="icon-step"></span>
+              <span class="text">Адрес доставки</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="main-content third-step-active">
+        <span class="main-content-mark icons-done"></span>
+        <h1 class="text-center">
+          <span class="rel"><i class="icon icons-person"></i></span>
+          Введите ваши данные
+        </h1>
+        <div class="person-data">
+          <form action="#">
+            <div class="side-1">
+              <div class="row-fields">
+                <div class="field-title">
+                  Фамилия<span class="danger">*</span>
+                </div>
+                <div class="field-control">
+                  <input placeholder="Введите фамилию" type="text"/>
+                </div>
+              </div>
+              <div class="row-fields">
+                <div class="field-title">
+                 Имя <span class="danger">*</span>
+                </div>
+                <div class="field-control">
+                  <input placeholder="Введите имя" type="text"/>
+                </div>
+              </div>
+              <div class="row-fields">
+                <div class="field-title">
+                  Отчество<span class="danger">*</span>
+                </div>
+                <div class="field-control">
+                  <input placeholder="Введите отчество" type="text"/>
+                </div>
+              </div>
+              <div class="row-fields">
+                <div class="field-title">
+                  E-mail<span class="danger">*</span>
+                </div>
+                <div class="field-control">
+                  <input class="gal-icon" placeholder="" type="text"/>
+                </div>
+              </div>
+              <div class="row-fields">
+                <div class="field-title">
+                  Мобильный телефон<span class="danger">*</span>
+                </div>
+                <div class="field-control cellnumber-input-container">
+                  <div class="cell-country"><input type="text"/></div>
+                  <div class="cell-code"><input type="text"/></div>
+                  <div class="cell-number"><input type="text"/></div>
+                </div>
+              </div>
+              <div class="row-fields">
+                <div class="field-title">
+                  <span class="danger">*</span> – обязательные для заполнения поля
+                </div>
+              </div>
+            </div>
+            <div class="side-2">
+              <div class="attention">
+                Внимание! <br/>
+                Проверьте ваши данные бла бла бла
+              </div>
+              <div class="comment-box">
+                <div class="row-fields">
+                  <div class="field-title">
+                    Комментарий к заказу
+                    <span class="pull-right gray">255</span>
+                  </div>
+                  <div class="field-control">
+                    <textarea name="" cols="30" rows="10"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-success btn-lg">Оформить заказ</button>
+      </div>
+      <div class="text-center save-order-div" >
+        <a href="#">Сохранить заказ в личном кабинете, я оплачу его позже</a>
+      </div>
+      <div class="main-content">
+        <h1 class="text-center"><span class="rel"><i class="icon icons-cart"></i></span>Состав и сумма вашего заказа</h1>
+        <div class="cf">
+          <div class="white-box cart-box ">
+            <div class="box-header">
+              <div class="title">Корзина</div>
+            </div>
+            <div class="item">
+              <div class="pic-preview">
+                <a href="#">
+                  <img src="img/pic.jpg" alt=""/>
+                </a>
+              </div>
+              <div class="item-info">
+                <div class="title">
+                  Все Технические Моменты Онлайн Бизнеса в Видеоформате
+                </div>
+                <div class="price">
+                  <strong><span class="green">2990</span> руб. </strong><span class="dol">($73)</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="pic-preview">
+                <a href="#">
+                  <img src="img/pic.jpg" alt=""/>
+                </a>
+              </div>
+              <div class="item-info">
+                <div class="title">
+                  Все Технические Моменты Онлайн Бизнеса в Видеоформате
+                </div>
+                <div class="price">
+                  <strong><span class="green">2990</span> руб. </strong><span class="dol">($73)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="white-box cart-details">
+            <div class="box-header">
+              <div class="title">Детали заказа</div>
+            </div>
+            <ul class="order-details">
+              <li>
+                <span class="pull-left name">Способ оплаты:</span>
+                <strong class="pull-right value">PayU</strong>
+              </li>
+              <li>
+                <span class="pull-left name">Доставка:</span>
+                <strong class="pull-right value">Заказчка по Интернет</strong>
+              </li>
+              <li>
+                <span class="pull-left name">Общий вес файлов:</span>
+                <strong class="pull-right value">9097 Мб</strong>
+              </li>
+              <li>
+                <span class="pull-left name">Стоимость доставки:</span>
+                <strong class="pull-right value"><span class="green">0</span> руб.</strong>
+              </li>
+            </ul>
+            <div class="box-footer total">
+              <strong>Итоговая сумма заказа:</strong> <span class="pull-right"><span class="green">3734</span> руб.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-success btn-lg">Изменить заказ</button>
+      </div>
+    </div>
+
+  </div>
+  <footer class="footer">
+    <div class="footer-wrapper">
+      <div class="col-sm-3 copyright">
+        Все права защищены. <br/>
+        Copyright &copy; 2014. Илья Ситнов.
+      </div>
+      <div class="col-md-6 col-sm-12 text-center">
+          <p>
+            <i class="icon icons-footer_logo"></i>
+          </p>
+          <p style="margin:0 0 16px;">ООО «Директ». ОГРН 1137847350970</p>
+        <strong>По вопросам звоните по телефону горячей линии: 8-(800)-555-39-79</strong><br/>
+с 10.00 до 18.00 в ПН-ПТ, в СБ с 10.00 до 16.00, ВС - выходной,
+время указано московское, звонок бесплатный для РФ.
+        </div>
+      <div class="col-md-3 col-sm-12" style="padding:0;">
+        <p style="padding-top:20px;">Мы в соц. сетях:</p>
+        <nav class="sosials">
+          <a href="#" class="icon icons-vk"></a>
+          <a href="#" class="icon icons-fb"></a>
+          <a href="#" class="icon icons-tw"></a>
+          <a href="#" class="icon icons-inst"></a>
+          <a href="#" class="icon icons-you"></a>
+        </nav>
+        Служба поддержки: <a href="#">задать вопрос</a> <br/>
+        Партнерская программа: <a href="#">зарегистрироваться</a>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/init.js"></script>
+</html>
