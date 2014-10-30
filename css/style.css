@@ -8898,6 +8898,7 @@ button.close {
 .footer {
   background: #fff;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  margin-top: -200px;
   background: #eff1f0;
   /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -8946,6 +8947,12 @@ button.close {
 .footer .footer-wrapper {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_footer\.scss}line{font-family:\0000342}}
+.body-content {
+  padding-bottom: 200px;
+  min-height: 100%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_popup\.scss}line{font-family:\000031}}
@@ -10300,8 +10307,21 @@ input[type='tel'] {
 .discount-box.discount-box20 {
   background: url(../img/disc20.png) no-repeat;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003713}}
+.discount-box .skew-text {
+  font-weight: bold;
+  color: #fff;
+  /* background: #000; */
+  transform: rotate(41deg);
+  display: block;
+  position: relative;
+  top: 75px;
+  font-size: 13px;
+  left: 68px;
+  color: #f0f0f0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003714}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003726}}
 .white-box {
   border: 1px solid #cccccc;
   border-radius: 8px;
@@ -10309,180 +10329,192 @@ input[type='tel'] {
   background: #fff;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003732}}
 .white-box .box-header {
   border-radius: 8px 8px 0 0;
   padding: 15px 20px;
   background: #f0f0f0;
   border-bottom: 1px solid #e3e3e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003725}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003737}}
 .white-box .box-header .title {
   font-size: 22px;
   color: #323232;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003744}}
 .white-box .box-footer {
   padding: 15px 20px;
   border-top: 1px solid #e3e3e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003736}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003748}}
 .white-box.cart-box {
   width: 63%;
   margin-right: 4%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003741}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003753}}
 .white-box.cart-details, .white-box.delivery {
   width: 33%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003746}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003758}}
 .white-box .bottom-box {
   border-top: 1px solid #e3e3e3;
   padding: 8px 20px;
   background: #f0f0f0;
   border-radius: 0 0 8px 8px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003763}}
+.white-box .bottom-box a.danger {
+  text-decoration: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003753}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003768}}
 .green {
   color: #62c24a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003756}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003771}}
 .danger {
   color: #f0300c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003760}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003775}}
 .cart-box .item {
   padding: 20px;
   border-top: 1px solid #e3e3e3;
   margin-top: -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003765}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003780}}
 .cart-box .item .pic-preview {
   width: 84px;
   border: 1px solid #e3e3e3;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003769}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003784}}
 .cart-box .item .pic-preview img {
   display: block;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003774}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003789}}
 .cart-box .item .item-info {
   margin-left: 100px;
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003777}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003792}}
 .cart-box .item .item-info .title {
   font-weight: bold;
   margin: 0 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003783}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003798}}
 .cart-box .item .item-info .price .dol {
   color: #808080;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003790}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003805}}
 .cart-box.cart-with-logic .item-info {
   margin: 0 150px 0 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003794}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003809}}
 .cart-box .cart-delete-block {
   width: 140px;
   float: right;
   padding-top: 3px;
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003799}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003814}}
 .cart-box .cart-delete-block a {
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
   transition: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003802}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003817}}
 .cart-box .cart-delete-block .bonuses {
   color: #808080;
   font-size: 16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003809}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003824}}
 .cart-details .total, .delivery .total {
   font-size: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003811}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003826}}
 .cart-details .total .pull-right, .delivery .total .pull-right {
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003815}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003830}}
 .cart-details .order-details, .delivery .order-details {
   padding: 15px 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003817}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003832}}
 .cart-details .order-details li, .delivery .order-details li {
   margin: 0 0 15px;
   font-size: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003821}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003836}}
 .cart-details .order-details li .name, .delivery .order-details li .name {
   color: #808080;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003829}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003844}}
 .delivery .order-details div.pull-right {
   color: #808080;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003831}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003846}}
 .delivery .order-details div.pull-right strong {
   color: #323232;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003851}}
 .delivery .payment-box {
   padding: 20px;
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003840}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003855}}
 .delivery .payment-box .gray {
   color: #808080;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003845}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003860}}
 .field-value {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003849}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003864}}
 .show-value .field-value {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003852}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003867}}
 .show-value .field-title, .show-value .field-control {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003855}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003870}}
 .show-value .field-name {
   opacity: .5;
   margin-right: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003860}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003875}}
 .enter-code-box {
   padding: 15px 20px;
   border-bottom: 1px solid #e3e3e3;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003879}}
+.enter-code-box.is-active .hide-input {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003881}}
+.enter-code-box.is-active .hide-input input {
+  width: 100%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003864}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003887}}
 .make-an-order {
   padding: 15px 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003867}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003890}}
 .another-courses {
   padding: 15px 20px;
   font-size: 22px;
@@ -10492,27 +10524,27 @@ input[type='tel'] {
   border-radius: 8px;
   border: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003875}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003898}}
 .another-courses .gray {
   color: #808080;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003902}}
 .tovar-container {
   margin: 0 -20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003881}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003904}}
 .tovar-container .col-6 {
   padding: 0 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003885}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003908}}
 .col-6 {
   float: left;
   width: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003889}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003912}}
 .tovar-item {
   border: 1px solid #cccccc;
   border-radius: 8px;
@@ -10521,46 +10553,46 @@ input[type='tel'] {
   position: relative;
   margin: 0 0 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003896}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003919}}
 .tovar-item .tovar-preview {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003898}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003921}}
 .tovar-item .tovar-preview img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003904}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003927}}
 .tovar-item .description {
   padding: 15px 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003906}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003929}}
 .tovar-item .description .heading {
   font-weight: bold;
   font-size: 18px;
   margin: 0 0 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003911}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003934}}
 .tovar-item .description .description-text {
   font-size: 14px;
   line-height: 21px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003916}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003939}}
 .tovar-item .tovar-price {
   font-size: 18px;
   margin: 0 0 10px;
   color: #808080;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003920}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003943}}
 .tovar-item .tovar-price strong {
   color: #323232;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003923}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003946}}
 .tovar-item .tovar-price .simple-price {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003925}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003948}}
 .tovar-item .tovar-price .simple-price:before {
   content: "";
   height: 2px;
@@ -10571,25 +10603,25 @@ input[type='tel'] {
   left: 0;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003940}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003963}}
 .tovar-item .some-information {
   padding: 15px 20px;
   font-size: 14px;
   line-height: 21px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003944}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003967}}
 .tovar-item .some-information .simple-link {
   color: #323232;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003947}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003970}}
 .tovar-item .some-information .important-info {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003949}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003972}}
 .tovar-item .some-information .important-info a {
   color: #f0300c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003952}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003975}}
 .tovar-item .some-information .important-info .info-tooltip {
   border: 1px solid #ccc;
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
@@ -10607,7 +10639,7 @@ input[type='tel'] {
   top: 30px;
   border-radius: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003965}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003988}}
 .tovar-item .some-information .important-info .info-tooltip:before {
   content: "";
   top: -12px;
@@ -10618,7 +10650,7 @@ input[type='tel'] {
   left: 0;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003975}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003998}}
 .tovar-item .some-information .important-info .info-tooltip:after {
   content: "";
   position: absolute;
@@ -10628,81 +10660,81 @@ input[type='tel'] {
   border-color: transparent transparent #fafafa transparent;
   left: 55px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003986}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031009}}
 .tovar-item .some-information .important-info:hover .info-tooltip {
   opacity: 1;
   z-index: 100;
   top: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003994}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031017}}
 .tovar-item .tovar-bottom {
   border-top: 1px solid #e3e3e3;
   background: #f0f0f0;
   padding: 25px;
   border-radius: 0 0 8px 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\00003999}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031022}}
 .tovar-item .tovar-bottom:after, .tovar-item .tovar-bottom:before {
   content: "";
   clear: both;
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031004}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031027}}
 .tovar-item .tovar-bottom .btn {
   font-size: 16px;
   padding: 11px 35px;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031012}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031035}}
 .vertical-tovar .tovar-preview {
   border-bottom: 1px solid #e3e3e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031015}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031038}}
 .vertical-tovar .some-information {
   border-top: 1px solid #e3e3e3;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031020}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031043}}
 .horizontal-tovar .tovar-preview {
   width: 290px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031024}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031047}}
 .horizontal-tovar .description {
   margin-left: 290px;
   padding: 40px 20px 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031028}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031051}}
 .horizontal-tovar .some-information {
   float: left;
   min-width: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031055}}
 .horizontal-tovar .important-info {
   float: left;
   margin-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031059}}
 .horizontal-tovar .some-information {
   padding: 11px 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031040}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031063}}
 .refound-money {
   background: #2a2a2b;
   border-radius: 0 0 8px 8px;
   padding: 40px 0;
   margin: 0 -40px -40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031045}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031068}}
 .refound-money h1 {
   font-size: 32px;
   color: #fafafa;
   margin: 0 0 30px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031051}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031074}}
 .refound-money .video-container {
   position: relative;
   width: 580px;
@@ -10711,7 +10743,7 @@ input[type='tel'] {
   margin: 0 auto 20px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031058}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031081}}
 .refound-money .video-container .money-back-icon {
   background: url(../img/money-back.png) no-repeat;
   width: 104px;
@@ -10721,13 +10753,13 @@ input[type='tel'] {
   right: -52px;
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031067}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031090}}
 .refound-money .video-container img {
   max-width: 100%;
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031073}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031096}}
 .special-menu-container {
   float: left;
   width: 300px !important;
@@ -10735,11 +10767,11 @@ input[type='tel'] {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031079}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031102}}
 .logos-box-section {
   margin: 0 -9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031081}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031104}}
 .logos-box-section a {
   display: block;
   float: left;
@@ -10755,12 +10787,12 @@ input[type='tel'] {
   -o-transition: none;
   transition: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031092}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031115}}
 .logos-box-section a:hover {
   border-color: #009fd1;
   box-shadow: 0 0 0 1px #009fd1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031096}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031119}}
 .logos-box-section a img {
   max-width: 100%;
   max-height: 100%;
@@ -10769,7 +10801,7 @@ input[type='tel'] {
   border-radius: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031129}}
 .my-accordion .panel {
   background: #f0f0f0;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -10779,16 +10811,16 @@ input[type='tel'] {
   background: #fff;
   margin: 0 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031138}}
 .my-accordion .panel.not-payed {
   box-shadow: 0 0 10px rgba(246, 62, 43, 0.5);
   border: 1px solid #f63e2b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031141}}
 .my-accordion .panel.not-payed .panel-title a {
   color: #f0300c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031144}}
 .my-accordion .panel.not-payed .panel-title .pay-link {
   float: right;
   font-size: 15px;
@@ -10798,7 +10830,7 @@ input[type='tel'] {
   top: 2px;
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031153}}
 .my-accordion .panel.not-payed .bottom-box {
   height: 96px;
   border-top: 1px solid #e3e3e3;
@@ -10807,20 +10839,20 @@ input[type='tel'] {
   padding: 25px;
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031162}}
 .my-accordion .panel.not-payed .btn-danger {
   padding: 11px 25px;
   font-weight: bold;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031168}}
 .my-accordion .panel .panel-heading {
   background: #f0f0f0;
   padding: 0;
   border: none;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031173}}
 .my-accordion .panel .panel-heading:before {
   content: "";
   width: 19px;
@@ -10833,22 +10865,22 @@ input[type='tel'] {
   margin-top: -6px;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031185}}
 .my-accordion .panel .panel-heading .panel-title {
   font-size: 20px;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031188}}
 .my-accordion .panel .panel-heading .panel-title a {
   text-decoration: none;
   padding: 15px 25px;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031197}}
 .my-accordion .collapse.in {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031199}}
 .my-accordion .collapse.in:before {
   content: "";
   width: 19px;
@@ -10861,13 +10893,66 @@ input[type='tel'] {
   background-color: #f0f0f0;
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031213}}
 .my-accordion .panel-body {
   padding: 25px;
   border-top: 1px solid #e3e3e3;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031219}}
 .blue-link {
   color: #009fd1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031222}}
+.hide-input {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031227}}
+.landing .main-body {
+  margin: 10px 0 20px;
+  padding: 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031231}}
+.landing .steps {
+  height: 150px;
+  padding-top: 10px;
+  margin: 0 auto 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031235}}
+.landing .steps .step ul .text {
+  top: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031239}}
+.landing .step-number {
+  margin: 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031242}}
+.landing .main-content {
+  margin: 10px -25px 20px;
+  padding: 20px 40px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031245}}
+.landing .main-content .main-content-mark {
+  top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031248}}
+.landing .main-content h1 {
+  margin: 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031251}}
+.landing .main-content .main-content-footer {
+  margin: 10px -40px 0;
+  padding: 10px 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031255}}
+.landing .main-content .main-content-simple-text {
+  font-size: 15px;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/anton\/Work\/goodlypro\/scss\/_main\.scss}line{font-family:\000031260}}
+.landing .btn.btn-success {
+  padding: 7px 25px;
+  font-size: 17px;
 }

@@ -710,6 +710,18 @@ input[type='tel'] {
 	&.discount-box20 {
 		background: url(../img/disc20.png) no-repeat;
 	}
+	.skew-text {
+		font-weight: bold;
+		color: #fff;
+		/* background: #000; */
+		transform: rotate(41deg);
+		display: block;
+		position: relative;
+		top: 75px;
+		font-size: 13px;
+		left: 68px;
+		color: #f0f0f0;
+	}
 }
 .white-box {
 	border:1px solid #cccccc;
@@ -748,6 +760,9 @@ input[type='tel'] {
 		padding:8px 20px;
 		background: #f0f0f0;
 		border-radius: 0 0 8px 8px;
+		a.danger {
+			text-decoration: none;
+		}
 	}
 }
 .green {
@@ -860,6 +875,14 @@ input[type='tel'] {
 .enter-code-box {
 	padding:15px 20px;
 	border-bottom:1px solid #e3e3e3;
+	&.is-active {
+		.hide-input {
+			display: block;
+			input {
+				width:100%;
+			}
+		}
+	}
 }
 .make-an-order {
 	padding:15px 20px;
@@ -1134,6 +1157,7 @@ input[type='tel'] {
 				margin: 0 -25px -25px;
 				padding:25px;
 				text-align: right;
+
 			}
 			.btn-danger {
 				padding:11px 25px;
@@ -1194,4 +1218,48 @@ input[type='tel'] {
 }
 .blue-link {
 	color:$brand-primary;
+}
+.hide-input {
+	display: none;
+}
+
+.landing {
+	.main-body {
+		margin:10px 0 20px;
+		padding:0 0 20px;
+	}
+	.steps {
+		height: 150px;
+		padding-top:10px;
+		margin:0 auto 10px;
+		.step ul .text {
+			top:70px;
+		}
+	}
+	.step-number {
+		margin:0 0 10px;
+	}
+	.main-content {
+		margin:10px -25px 20px;
+		padding:20px 40px 10px;
+		.main-content-mark {
+			top:15px;
+		}
+		h1 {
+			margin:0 0 20px;
+		}
+		.main-content-footer {
+			margin:10px -40px 0;
+			padding:10px 40px 0;
+		}
+		.main-content-simple-text {
+			font-size: 15px;
+			line-height: 20px;
+		}
+	}
+	.btn.btn-success {
+		padding:7px 25px;
+		font-size: 17px;
+
+	}
 }
